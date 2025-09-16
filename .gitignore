@@ -1,0 +1,10 @@
+
+# Ignore the artifacts directory.
+bin
+
+# Usually I develop this in multiple IDE's , depending which of them I want to open.
+
+# Disable all the IDE specific folders.
+
+.vs
+.idea

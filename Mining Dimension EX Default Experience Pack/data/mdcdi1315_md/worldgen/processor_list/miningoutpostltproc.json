@@ -1,0 +1,16 @@
+{
+	"processors": [
+		{
+			"processor_type": "mdex:loot_table_appender",
+			"containerid": "minecraft:chest",
+			"loot_table": "mdcdi1315_md:md_mining_outpost_chests",
+			"probability": 0.4
+		},
+		{
+			"processor_type": "mdex:loot_table_appender",
+			"containerid": "minecraft:barrel",
+			"loot_table": "mdcdi1315_md:md_mining_outpost_chests",
+			"probability": 0.4
+		}
+	]
+}

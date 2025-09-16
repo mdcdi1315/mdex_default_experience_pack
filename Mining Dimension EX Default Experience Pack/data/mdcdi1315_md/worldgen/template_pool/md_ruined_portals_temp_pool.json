@@ -1,0 +1,45 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element",
+				"terrain_adjustment": "none",
+				"processors": "mdcdi1315_md:md_scattered_ruined_portals_processor",
+				"location": "mdcdi1315_md:underground_ruined_portals/1"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element",
+				"terrain_adjustment": "none",
+				"processors": "mdcdi1315_md:md_scattered_ruined_portals_processor",
+				"location": "mdcdi1315_md:underground_ruined_portals/2"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element",
+				"terrain_adjustment": "none",
+				"processors": "mdcdi1315_md:md_scattered_ruined_portals_processor",
+				"location": "mdcdi1315_md:underground_ruined_portals/3"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element",
+				"terrain_adjustment": "none",
+				"processors": "mdcdi1315_md:md_scattered_ruined_portals_processor",
+				"location": "mdcdi1315_md:underground_ruined_portals/4"
+			}
+		}
+	]
+}

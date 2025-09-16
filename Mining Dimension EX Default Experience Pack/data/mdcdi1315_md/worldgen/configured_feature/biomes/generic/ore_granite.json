@@ -1,0 +1,30 @@
+{
+    "type": "mdex:modded_legacy_ore",
+    "config": {
+        "discard_chance_on_air_exposure": 0.19,
+        "size": 44,
+        "targets": [
+            {
+                "state": {
+                    "Name": "minecraft:granite"
+                },
+                "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:stone_ore_replaceables"
+                }
+            },
+            {
+                "state": {
+                    "Name": "mdex:granite"
+                },
+                "target": {
+                    "predicate_type": "mdex:any_matching_tag",
+                    "tags": [
+                        "minecraft:deepslate_ore_replaceables",
+                        "mdcdi1315_md:hardstone_ore_replaceables"
+                    ]
+                }
+            }
+        ]
+    }
+}

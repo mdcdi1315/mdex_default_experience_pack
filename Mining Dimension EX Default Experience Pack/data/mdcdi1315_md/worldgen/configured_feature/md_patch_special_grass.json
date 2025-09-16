@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "floor",
+    "depth": 4,
+    "vertical_range": 5,
+    "extra_bottom_block_chance": 0.3672,
+    "extra_edge_column_chance": 0,
+    "vegetation_chance": 0.7856,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 4
+      }
+    },
+    "replaceable": "#mdcdi1315_md:md_cave_stone_blocks",
+    "ground_state": {
+      "type": "minecraft:noise_provider",
+      "seed": 823756265,
+      "scale": 3,
+      "noise": {
+		"firstOctave": -9,
+		"amplitudes": [
+			3,
+			1.92,
+			5,
+			4,
+			0.873
+		]
+	  },
+      "states": [
+        {
+			"Name": "minecraft:dirt"
+        },
+		{
+			"Name": "minecraft:grass_block"
+		},
+		{
+			"Name": "minecraft:dirt"
+		},
+		{
+			"Name": "minecraft:grass_block"
+		},
+		{
+			"Name": "minecraft:dirt"
+		}
+      ]
+    },
+    "vegetation_feature": {
+      "feature": "mdcdi1315_md:md_single_grass_block_processer",
+      "placement": []
+    }
+  }
+}

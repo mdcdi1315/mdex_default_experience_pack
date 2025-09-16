@@ -1,0 +1,40 @@
+{
+	"parent": "mdcdi1315_md:enter_md_adv",
+	"display": {
+		"announce_to_chat": false,
+		"frame": "challenge",
+		"hidden": false,
+		"show_toast": true,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.killed_archevoker.title",
+				"color": "dark_blue"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.killed_archevoker.desc",
+				"color": "white"
+			}
+		],
+		"icon": {
+			"item": "irons_spellbooks:archevoker_helmet"
+		}
+	},
+	"criteria": {
+		"killed_the_archevoker_in_md": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "irons_spellbooks:archevoker"
+				},
+				"player": {
+					"location": {
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [ [ "killed_the_archevoker_in_md" ] ]
+}

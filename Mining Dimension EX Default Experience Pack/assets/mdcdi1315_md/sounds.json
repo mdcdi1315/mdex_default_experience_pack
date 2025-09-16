@@ -1,0 +1,304 @@
+{
+	"md_biomes.music.shared": {
+		"subtitle": "sub.mdcdi1315_md.md_default_sound_pool",
+		"sounds": [
+			{
+				"name": "mdcdi1315_md:shared/moog_city_2",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/a_familiar_room",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/comforting_memories",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.4
+			},
+			{
+				"name": "minecraft:music/game/floating_dream",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.4
+			},
+			{
+				"name": "minecraft:music/game/one_more_day",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.4
+			},
+			{
+				"name": "minecraft:music/game/infinite_amethyst",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/wending",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/calm1",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/calm2",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/calm3",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/hal1",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/hal2",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/hal4",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			}
+		]
+	},
+	"md_biomes.default_biome_sound_pool": {
+		"subtitle": "sub.mdcdi1315_md.md_default_biome_sound_pool",
+		"sounds": [
+			{
+				"name": "mdcdi1315_md:md_biomes.music.shared",
+				"type": "event"
+			},
+			{
+				"name": "mdcdi1315_md:shared/deeper",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.921
+			},
+			{
+				"name": "mdcdi1315_md:shared/eld_unknown",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "mdcdi1315_md:shared/endless",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "mdcdi1315_md:shared/featherfall",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "mdcdi1315_md:shared/watcher",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "mdcdi1315_md:shared/yakusoku",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.8
+			}
+		]
+	},
+	"md_biomes.md_dripstone_caves_sound_pool": {
+		"subtitle": "sub.mdcdi1315_md.md_dripstone_caves_sound_pool",
+		"sounds": [
+			{
+				"name": "mdcdi1315_md:md_biomes.music.shared",
+				"type": "event"
+			},
+			{
+				"name": "minecraft:music/game/wending",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "mdcdi1315_md:shared/endless",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.4,
+				"weight": 2
+			},
+			{
+				"name": "mdcdi1315_md:shared/deeper",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.4
+			},
+			{
+				"name": "mdcdi1315_md:shared/eld_unknown",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0,
+				"weight": 2
+			}
+		]
+	},
+	"md_biomes.md_lush_caves_sound_pool": {
+		"subtitle": "sub.mdcdi1315_md.md_lush_caves_sound_pool",
+		"sounds": [
+			{
+				"name": "mdcdi1315_md:md_biomes.music.shared",
+				"type": "event"
+			},
+			{
+				"name": "minecraft:music/game/an_ordinary_day",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/left_to_bloom",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.4,
+				"weight": 2
+			},
+			{
+				"name": "mdcdi1315_md:shared/watcher",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/bromeliad",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.7
+			},
+			{
+				"name": "mdcdi1315_md:shared/featherfall",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.4,
+				"weight": 2
+			}
+		]
+	},
+	"md_biomes.md_mantle_caves_sound_pool": {
+		"subtitle": "sub.mdcdi1315_md.md_mantle_caves_sound_pool",
+		"sounds": [
+			{
+				"name": "mdcdi1315_md:md_biomes.music.shared",
+				"type": "event"
+			},
+			{
+				"name": "mdcdi1315_md:shared/eld_unknown",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "mdcdi1315_md:shared/featherfall",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			}
+		]
+	},
+	"md_biomes.md_thermal_caves_sound_pool": {
+		"subtitle": "sub.mdcdi1315_md.md_thermal_caves_sound_pool",
+		"sounds": [
+			{
+				"name": "mdcdi1315_md:md_biomes.music.shared",
+				"type": "event"
+			},
+			{
+				"name": "mdcdi1315_md:shared/deeper",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.9
+			}
+		]
+	},
+	"md_biomes.md_infested_caves_sound_pool": {
+		"subtitle": "sub.mdcdi1315_md.md_infested_caves_sound_pool",
+		"sounds": [
+			{
+				"name": "mdcdi1315_md:md_biomes.music.shared",
+				"type": "event"
+			},
+			{
+				"name": "mdcdi1315_md:shared/deeper",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.9
+			},
+			{
+				"name": "mdcdi1315_md:shared/eld_unknown",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 1.0
+			},
+			{
+				"name": "minecraft:music/game/stand_tall",
+				"stream": true,
+				"preload": false,
+				"type": "file",
+				"volume": 0.4,
+				"weight": 2
+			}
+		]
+	}
+}

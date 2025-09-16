@@ -1,0 +1,40 @@
+{
+	"parent": "mdcdi1315_md:found_ispell_catacombs",
+	"display": {
+		"announce_to_chat": true,
+		"frame": "challenge",
+		"hidden": false,
+		"show_toast": false,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.killed_dead_king.title",
+				"color": "white"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.killed_dead_king.desc"
+			}
+		],
+		"icon": {
+			"item": "irons_spellbooks:necronomicon_spell_book"
+		}
+	},
+	"criteria": {
+		"killed_the_dead_king_in_md": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "irons_spellbooks:dead_king"
+				},
+				"player": {
+					"location": {
+						"structures": "irons_spellbooks:catacombs",
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [ [ "killed_the_dead_king_in_md" ] ]
+}

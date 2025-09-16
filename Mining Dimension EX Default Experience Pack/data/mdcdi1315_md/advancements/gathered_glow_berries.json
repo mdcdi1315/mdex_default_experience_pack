@@ -1,0 +1,47 @@
+{
+	"parent": "mdcdi1315_md:enter_md_adv",
+	"display": {
+		"announce_to_chat": true,
+		"frame": "task",
+		"hidden": false,
+		"show_toast": false,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.got_glow_berries.title",
+				"color": "light_purple"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.got_glow_berries.desc",
+				"color": "white"
+			}
+		],
+		"icon": {
+			"item": "minecraft:glow_berries"
+		}
+	},
+	"criteria": {
+		"obtained_glow_berries_in_lush_caves": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:glow_berries" ]
+					}
+				],
+				"player": {
+					"location": {
+						"biome": "mdcdi1315_md:md_lush_caves",
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"obtained_glow_berries_in_lush_caves"
+		]
+	]
+}

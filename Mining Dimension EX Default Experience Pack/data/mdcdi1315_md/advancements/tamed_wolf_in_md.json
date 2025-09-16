@@ -1,0 +1,40 @@
+{
+	"parent": "mdcdi1315_md:enter_md_adv",
+	"display": {
+		"announce_to_chat": true,
+		"frame": "task",
+		"hidden": true,
+		"show_toast": false,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.tamed_wolf.title",
+				"color": "green"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.tamed_wolf.desc",
+				"color": "#79D4CE"
+			}
+		],
+		"icon": {
+			"item": "minecraft:bone"
+		}
+	},
+	"criteria": {
+		"tamed_wolf_in_md": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wolf"
+				},
+				"player": {
+					"location": {
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [ [ "tamed_wolf_in_md" ] ]
+}

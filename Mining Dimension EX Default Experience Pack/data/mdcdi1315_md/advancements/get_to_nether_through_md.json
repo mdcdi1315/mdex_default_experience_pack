@@ -1,0 +1,34 @@
+{
+	"parent": "mdcdi1315_md:enter_md_adv",
+	"display": {
+		"announce_to_chat": true,
+		"frame": "goal",
+		"hidden": true,
+		"show_toast": false,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.transfered_to_nether.title",
+				"color": "#E1FF35"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.transfered_to_nether.desc",
+				"color": "white"
+			}
+		],
+		"icon": {
+			"item": "minecraft:netherrack"
+		}
+	},
+	"criteria": {
+		"is_in_nether_through_md": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "mdcdi1315_md:mining_dim",
+				"to": "minecraft:nether"
+			}
+		}
+	},
+	"requirements": [ [ "is_in_nether_through_md" ] ]
+}

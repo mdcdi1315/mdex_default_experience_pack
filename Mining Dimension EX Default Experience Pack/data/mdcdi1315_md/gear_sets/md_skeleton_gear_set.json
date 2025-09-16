@@ -1,0 +1,85 @@
+{
+	"weight": 100,
+	"mainhands": [
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:bow",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[{lvl:1, id:\"minecraft:flame\"},{lvl:2, id:\"minecraft:punch\"},{lvl:5, id:\"minecraft:power\"},{lvl:3, id:\"minecraft:unbreaking\"},{lvl:1, id:\"minecraft:mending\"},{lvl:1, id:\"minecraft:binding_curse\"}]}"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:bow",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[{lvl:1, id:\"minecraft:punch\"},{lvl:3, id:\"minecraft:power\"},{lvl:2, id:\"minecraft:unbreaking\"},{lvl:1, id:\"minecraft:mending\"}]}"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "minecraft:bow",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[{lvl:1, id:\"minecraft:power\"},{lvl:1, id:\"minecraft:unbreaking\"}]}"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:bow"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:diamond_sword"
+			}
+		},
+		{
+			"weight": 4,
+			"stack": {
+				"item": "minecraft:diamond_sword",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[ { lvl:2, id:\"minecraft:sharpness\" } , { lvl:1, id:\"minecraft:unbreaking\" } , { lvl:1, id:\"minecraft:mending\" } ]}"
+			}
+		}
+	],
+	"offhands": [
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:shield"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "minecraft:shield",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[{lvl:1, id:\"minecraft:mending\"}]}"
+			}
+		},
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:shield",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[{lvl:1, id:\"minecraft:mending\"},{lvl:2, id:\"minecraft:unbreaking\"}]}"
+			}
+		}
+	],
+	"helmets": [],
+	"chestplates": [
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:chainmail_chestplate"
+			}
+		}
+	],
+	"leggings": [],
+	"boots": [],
+	"tags": []
+}

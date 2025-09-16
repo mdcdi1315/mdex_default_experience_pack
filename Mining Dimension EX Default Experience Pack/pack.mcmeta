@@ -1,0 +1,10 @@
+{
+    "pack": {
+		"pack_format": ${Pack_Format},
+		"description": [
+			{ "text": "Mining Dimension: EX Supporting Datapack - mdcdi1315 - Version ${Version}" , "color": "green" },
+			{ "text": "\nProvides the default experience for playing with the Mining Dimension: EX mod." ,
+		  	  "color": "gray" }
+		]
+    }
+}

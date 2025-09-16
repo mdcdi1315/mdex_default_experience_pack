@@ -1,0 +1,52 @@
+{
+	"feature": {
+		"type": "minecraft:simple_random_selector",
+		"config": {
+			"features": [
+				{
+					"feature": "mdcdi1315_md:biomes/treeland/small_roof_light",
+					"placement": []
+				},
+				{
+					"feature": "mdcdi1315_md:biomes/treeland/medium_roof_light",
+					"placement": []
+				},
+				{
+					"feature": "mdcdi1315_md:biomes/treeland/large_roof_light",
+					"placement": []
+				}
+			]
+		}
+	},
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 26
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"max_inclusive": {
+				  "absolute": 44
+				},
+				"min_inclusive": {
+				  "absolute": -48
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "up",
+			"max_steps": 32,
+			"target_condition": {
+				"type": "minecraft:has_sturdy_face",
+				"direction": "down",
+				"offset": [ 0, 1, 0 ]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+    "biome_id": "mdcdi1315_md:md_default_biome",
+    "modids": [
+        "born_in_chaos_v1"
+    ],
+    "category": "ambient",
+    "spawners": [
+        {
+            "id": "born_in_chaos_v1:corpse_fly",
+            "weight": 10,
+            "min_count": 1,
+            "max_count": 3
+        }
+    ]
+}

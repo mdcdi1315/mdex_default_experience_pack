@@ -1,0 +1,39 @@
+{
+    "biome_id": "mdcdi1315_md:md_dripstone_caves",
+    "modids": [
+        "irons_spellbooks"
+    ],
+    "category": "monster",
+    "spawners": [
+        {
+          "id": "irons_spellbooks:pyromancer",
+          "weight": 10,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "id": "irons_spellbooks:archevoker",
+          "weight": 1,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "id": "irons_spellbooks:cultist",
+          "weight": 1,
+          "min_count": 1,
+          "max_count": 2
+        },
+        {
+          "id": "irons_spellbooks:cryomancer",
+          "weight": 2,
+          "min_count": 1,
+          "max_count": 1
+        },
+        {
+          "id": "irons_spellbooks:necromancer",
+          "weight": 370,
+          "min_count": 1,
+          "max_count": 1
+        }
+    ]
+}

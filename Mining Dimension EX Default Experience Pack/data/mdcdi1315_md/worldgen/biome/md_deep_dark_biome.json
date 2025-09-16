@@ -1,0 +1,101 @@
+{
+	"downfall": 0.4,
+	"temperature": 0.8,
+	"has_precipitation": true,
+	"effects": {
+		"fog_color": 12638463,
+		"mood_sound": {
+			"block_search_extent": 8,
+			"offset": 2.0,
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000
+		},
+		"music": {
+			"max_delay": 24000,
+			"min_delay": 12000,
+			"replace_current_music": false,
+			"sound": "minecraft:music.overworld.deep_dark"
+		},
+		"sky_color": 7907327,
+		"water_color": 4159204,
+		"water_fog_color": 329011
+	},
+	"carvers": {
+		"air": [
+			"mdcdi1315_md:cave",
+			"mdcdi1315_md:cave_extra_underground",
+			"mdcdi1315_md:canyon"
+		]
+	},
+	"spawn_costs": {},
+	"spawners": {
+		"ambient": [],
+		"axolotls": [],
+		"creature": [],
+		"misc": [],
+		"monster": [],
+		"underground_water_creature": [],
+		"water_ambient": [],
+		"water_creature": []
+	},
+	"features": [
+		[],
+		[],
+		[
+			"mdcdi1315_md:md_amethyst_geode",
+			"mdcdi1315_md:md_tconstruct_sky_geode",
+			"mdcdi1315_md:md_tconstruct_earth_geode",
+			"mdcdi1315_md:md_ae2_certus_quartz_geode"
+		],
+		[
+			"mdcdi1315_md:biomes/generic/monster_room"
+		],
+		[],
+		[],
+		[
+			"mdcdi1315_md:biomes/generic/ore_dirt",
+			"mdcdi1315_md:biomes/generic/ore_tuff",
+			"mdcdi1315_md:biomes/generic/ore_gravel",
+			"mdcdi1315_md:biomes/generic/ore_granite_upper",
+			"mdcdi1315_md:biomes/generic/ore_granite_lower",
+			"mdcdi1315_md:biomes/generic/ore_diorite_upper",
+			"mdcdi1315_md:biomes/generic/ore_diorite_lower",
+			"mdcdi1315_md:biomes/generic/ore_andesite_upper",
+			"mdcdi1315_md:biomes/generic/ore_andesite_lower",
+			
+			"mdcdi1315_md:md_coal_ore",
+			"mdcdi1315_md:md_diamond_ore",
+			"mdcdi1315_md:md_iron_ore",
+			"mdcdi1315_md:md_emerald_ore",
+			"mdcdi1315_md:md_gold_ore",
+			"mdcdi1315_md:md_lapis_ore",
+			"mdcdi1315_md:md_arcane_debris",
+			"mdcdi1315_md:md_ae2_random_certus_quartz_ore",
+			"mdcdi1315_md:md_ae2_fluix_block_ore",
+			"mdcdi1315_md:md_lead_ore",
+			"mdcdi1315_md:md_lithium_ore",
+			"mdcdi1315_md:md_nickel_ore",
+			"mdcdi1315_md:md_redstone_ore",
+			"mdcdi1315_md:md_zinc_ore",
+			"mdcdi1315_md:md_copper_ore",
+			"mdcdi1315_md:md_raw_copper_block_blob",
+			"mdcdi1315_md:md_raw_gold_block_blob",
+			"mdcdi1315_md:md_raw_iron_block_blob",
+			"mdcdi1315_md:md_bic_v1_black_argillite",
+			
+			"minecraft:underwater_magma",
+			"minecraft:disk_sand",
+			"minecraft:disk_gravel",
+			"minecraft:disk_clay"
+		],
+		[
+			"minecraft:sculk_vein",
+			"minecraft:sculk_patch_deep_dark"
+		],
+		[],
+		[
+			"minecraft:glow_lichen"
+		],
+		[]
+	]
+}

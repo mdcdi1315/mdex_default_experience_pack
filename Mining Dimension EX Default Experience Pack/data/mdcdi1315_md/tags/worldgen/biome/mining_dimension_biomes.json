@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"mdcdi1315_md:md_default_biome",
+		"mdcdi1315_md:md_lush_caves",
+		"mdcdi1315_md:md_dripstone_caves",
+		"mdcdi1315_md:md_treeland_caves",
+		"mdcdi1315_md:md_deep_dark_biome"
+	]
+}

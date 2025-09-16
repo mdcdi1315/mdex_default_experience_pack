@@ -1,0 +1,40 @@
+{
+	"parent": "mdcdi1315_md:enter_md_adv",
+	"display": {
+		"announce_to_chat": true,
+		"frame": "task",
+		"hidden": true,
+		"show_toast": false,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.traded_with_pyromancer.title",
+				"color": "green"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.traded_with_pyromancer.desc",
+				"color": "#4C4AFF"
+			}
+		],
+		"icon": {
+			"item": "minecraft:emerald"
+		}
+	},
+	"criteria": {
+		"traded_with_pyromancer": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": {
+					"type": "irons_spellbooks:pyromancer"
+				},
+				"player": {
+					"location": {
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [ [ "traded_with_pyromancer" ] ]
+}

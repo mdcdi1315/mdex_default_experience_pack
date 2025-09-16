@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mdcdi1315_md:md_mining_outposts",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 23456787,
+    "spacing": 19,
+    "separation": 4,
+    "type": "minecraft:random_spread"
+  }
+}

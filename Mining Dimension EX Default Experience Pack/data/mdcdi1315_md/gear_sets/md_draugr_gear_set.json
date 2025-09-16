@@ -1,0 +1,85 @@
+{
+	"weight": 300,
+	"quality": 2,
+	"mainhands": [
+		{
+			"weight": 1,
+			"stack": {
+				"item": "cataclysm:black_steel_sword",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[ {lvl:4, id:\"minecraft:sharpness\"} , {lvl:3, id:\"minecraft:unbreaking\"} , {lvl:1, id:\"minecraft:mending\"} ]}"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "cataclysm:black_steel_axe",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[ {lvl:4, id:\"minecraft:sharpness\"} , {lvl:3, id:\"minecraft:unbreaking\"} , {lvl:1, id:\"minecraft:mending\"} ]}"
+			}
+		},
+		{
+			"weight": 3,
+			"stack": {
+				"item": "cataclysm:black_steel_sword",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[ {lvl:3, id:\"minecraft:sharpness\"} , {lvl:1, id:\"minecraft:unbreaking\"} , {lvl:1, id:\"minecraft:mending\"} ]}"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "cataclysm:black_steel_sword",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[ {lvl:1, id:\"minecraft:sharpness\"} , {lvl:1, id:\"minecraft:unbreaking\"} ]}"
+			}
+		},
+		{
+			"weight": 5,
+			"stack": {
+				"item": "cataclysm:black_steel_axe",
+				"count": 1,
+				"nbt": "{Damage:0, Enchantments:[ {lvl:2, id:\"minecraft:sharpness\"} , {lvl:1, id:\"minecraft:unbreaking\"} ]}"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "cataclysm:black_steel_sword"
+			}
+		},
+		{
+			"weight": 10,
+			"stack": {
+				"item": "minecraft:diamond_sword"
+			}
+		}
+	],
+	"offhands": [],
+	"helmets": [],
+	"chestplates": [
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		}
+	],
+	"leggings": [
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:diamond_leggings"
+			}
+		}
+	],
+	"boots": [
+		{
+			"weight": 1,
+			"stack": {
+				"item": "minecraft:diamond_boots"
+			}
+		}
+	],
+	"tags": []
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mdcdi1315_md:md_scattered_ruined_portals",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 14327861,
+    "spacing": 17,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

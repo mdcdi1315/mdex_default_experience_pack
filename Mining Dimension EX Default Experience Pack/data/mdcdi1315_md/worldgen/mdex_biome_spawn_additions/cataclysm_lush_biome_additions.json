@@ -1,0 +1,15 @@
+{
+    "biome_id": "mdcdi1315_md:md_lush_caves",
+    "modids": [
+        "cataclysm"
+    ],
+    "category": "monster",
+    "spawners": [
+        {
+            "id": "cataclysm:draugr",
+            "weight": 40,
+            "min_count": 2,
+            "max_count": 5
+        }
+    ]
+}

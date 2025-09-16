@@ -1,0 +1,35 @@
+{
+	"parent": "mdcdi1315_md:parent",
+	"sends_telemetry_event": true,
+	"display": {
+		"announce_to_chat": false,
+		"frame": "task",
+		"hidden": true,
+		"show_toast": true,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.enter_md.title",
+				"color": "magenta"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.enter_md.desc"
+			}
+		],
+		"icon": {
+			"item": "minecraft:diamond_pickaxe"
+		}
+	},
+	"criteria": {
+		"enter_m_dimension": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "mdcdi1315_md:mining_dim"
+			}
+		}
+	},
+	"requirements": [
+		[ "enter_m_dimension" ]
+	]
+}

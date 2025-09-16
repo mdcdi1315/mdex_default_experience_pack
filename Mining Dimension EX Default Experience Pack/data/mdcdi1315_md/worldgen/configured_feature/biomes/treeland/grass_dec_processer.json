@@ -1,0 +1,64 @@
+{
+	"type": "minecraft:simple_block",
+    "config": {
+		"to_place": {
+			"type": "minecraft:noise_provider",
+			"seed": 4399547,
+			"scale": 3,
+			"noise": {
+				"firstOctave": -4,
+				"amplitudes": [ -1, -2, 1, -4 ]
+			},
+			"states": [
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:tall_grass"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:grass"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:fern"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:large_fern"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:brown_mushroom"
+				},
+				{
+					"Name": "minecraft:red_mushroom"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:poppy"
+				},
+				{
+					"Name": "minecraft:cornflower"
+				},
+				{
+					"Name": "minecraft:sunflower"
+				},
+				{
+					"Name": "minecraft:torch"
+				}
+			]
+		}
+	}
+}

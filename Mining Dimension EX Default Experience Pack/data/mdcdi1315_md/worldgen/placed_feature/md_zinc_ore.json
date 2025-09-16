@@ -1,0 +1,24 @@
+{
+  "feature": "mdcdi1315_md:md_zinc_ore",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 9
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 110
+        },
+        "min_inclusive": {
+          "absolute": -63
+        }
+      }
+    }
+  ]
+}

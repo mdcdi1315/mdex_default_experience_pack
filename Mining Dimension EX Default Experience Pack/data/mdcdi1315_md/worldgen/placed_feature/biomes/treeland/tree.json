@@ -1,0 +1,84 @@
+{
+	"feature": "mdcdi1315_md:biomes/treeland/tree",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": 29
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"max_inclusive": {
+				  "absolute": 30
+				},
+				"min_inclusive": {
+				  "absolute": -52
+				}
+			}
+		},
+		{
+			"type": "minecraft:random_offset",
+			"y_spread": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 0,
+					"max_inclusive": 2
+				}
+			},
+			"xz_spread": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 3,
+					"max_inclusive": 15
+				}
+			}
+		},
+		{
+			"type": "minecraft:environment_scan",
+			"direction_of_search": "down",
+			"max_steps": 14,
+			"target_condition": {
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:air",
+							"minecraft:cave_air"
+						],
+						"offset": [ 0, 1, 0 ]
+					},
+					{
+						"type": "minecraft:any_of",
+						"predicates": [
+							{
+								"type": "minecraft:matching_block_tag",
+								"tag": "mdcdi1315_md:md_cave_stone_blocks",
+								"offset": [ 0 , 0 , 0 ]
+							},
+							{
+								"type": "minecraft:matching_blocks",
+								"blocks": [
+									"minecraft:dirt",
+									"minecraft:grass_block"
+								],
+								"offset": [ 0 , 0 , 0 ]
+							},
+							{
+								"type": "minecraft:would_survive",
+								"offset": [ 0 , 0 , 0 ],
+								"state": {
+									"Name": "minecraft:dark_oak_sapling",
+									"Properties": {
+										"stage": "0"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

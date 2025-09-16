@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mdcdi1315_md:md_nether_remnants",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 845822348,
+    "spacing": 14,
+    "separation": 4,
+    "type": "minecraft:random_spread"
+  }
+}

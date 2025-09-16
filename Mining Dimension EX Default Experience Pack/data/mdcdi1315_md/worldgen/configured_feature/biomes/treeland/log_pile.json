@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:block_pile",
+	"config": {
+		"state_provider": {
+			"type": "minecraft:rotated_block_provider",
+			"state": {
+				"Name": "minecraft:dark_oak_log",
+				"Properties": {}
+			}
+		}
+	}
+}

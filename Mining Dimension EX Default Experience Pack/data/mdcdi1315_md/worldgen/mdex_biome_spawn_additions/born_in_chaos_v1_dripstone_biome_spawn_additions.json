@@ -1,0 +1,111 @@
+{
+    "biome_id": "mdcdi1315_md:md_dripstone_caves",
+    "modids": [
+        "born_in_chaos_v1"
+    ],
+    "category": "monster",
+    "spawners": [
+        {
+            "id": "born_in_chaos_v1:door_knight",
+            "weight": 340,
+            "min_count": 1,
+            "max_count": 2
+        },
+        {
+            "id": "born_in_chaos_v1:baby_skeleton",
+            "weight": 30,
+            "min_count": 1,
+            "max_count": 5
+        },
+        {
+            "id": "born_in_chaos_v1:baby_spider",
+            "weight": 882,
+            "min_count": 4,
+            "max_count": 6
+        },
+		{
+            "id": "born_in_chaos_v1:seared_spirit",
+            "weight": 820,
+            "min_count": 2,
+            "max_count": 2
+		},
+        {
+            "id": "born_in_chaos_v1:skeleton_thrasher",
+            "weight": 94,
+            "min_count": 1,
+            "max_count": 1
+        },
+		{
+            "id": "born_in_chaos_v1:zombie_clown",
+            "weight": 580,
+            "min_count": 1,
+            "max_count": 1
+		},
+        {
+            "id": "born_in_chaos_v1:decaying_zombie",
+            "weight": 910,
+            "min_count": 2,
+            "max_count": 6
+        },
+        {
+            "id": "born_in_chaos_v1:bone_imp",
+            "weight": 38,
+            "min_count": 1,
+            "max_count": 5
+        },
+        {
+            "id": "born_in_chaos_v1:bone_imp_minion",
+            "weight": 38,
+            "min_count": 1,
+            "max_count": 2
+        },
+        {
+            "id": "born_in_chaos_v1:infernal_spirit",
+            "weight": 260,
+            "min_count": 1,
+            "max_count": 1
+        },
+        {
+            "id": "born_in_chaos_v1:dark_vortex",
+            "weight": 630,
+            "min_count": 2,
+            "max_count": 3
+        }, 
+        {
+            "id": "born_in_chaos_v1:decrepit_skeleton",
+            "weight": 314,
+            "min_count": 4,
+            "max_count": 6
+        },
+		{
+            "id": "born_in_chaos_v1:siamese_skeletons",
+            "weight": 238,
+            "min_count": 2,
+            "max_count": 5
+		},
+        {
+            "id": "born_in_chaos_v1:fallen_chaos_knight",
+            "weight": 460,
+            "min_count": 1,
+            "max_count": 2
+		},
+		{
+            "id": "born_in_chaos_v1:dread_hound",
+            "weight": 500,
+            "min_count": 2,
+    		"max_count": 8
+		},
+        {
+            "id": "born_in_chaos_v1:barrel_zombie",
+            "weight": 860,
+            "min_count": 1,
+            "max_count": 3
+        },
+        {
+            "id": "born_in_chaos_v1:mother_spider",
+            "weight": 8,
+            "min_count": 1,
+            "max_count": 1
+		}
+    ]
+}

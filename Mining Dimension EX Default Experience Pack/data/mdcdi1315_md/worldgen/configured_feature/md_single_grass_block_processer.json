@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:simple_block",
+    "config": {
+		"to_place": {
+			"type": "minecraft:noise_provider",
+			"seed": 43986786,
+			"scale": 5,
+			"noise": {
+				"firstOctave": -12,
+				"amplitudes": [ 3, 1, -5, -1 ]
+			},
+			"states": [
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:tall_grass"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:grass"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:fern"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:large_fern"
+				},
+				{
+					"Name": "minecraft:air"
+				},
+				{
+					"Name": "minecraft:air"
+				}
+			]
+		}
+    }
+}

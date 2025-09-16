@@ -1,0 +1,39 @@
+{
+	"parent": "mdcdi1315_md:enter_md_adv",
+	"display": {
+		"announce_to_chat": true,
+		"frame": "goal",
+		"hidden": true,
+		"show_toast": false,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.cheated_death.title",
+				"color": "yellow"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.cheated_death.desc"
+			}
+		],
+		"icon": {
+			"item": "minecraft:totem_of_undying"
+		}
+	},
+	"criteria": {
+		"cheated_death": {
+			"trigger": "minecraft:used_totem",
+			"conditions": {
+				"item": {
+					"items": "minecraft:totem_of_undying" 
+				},
+				"player": {
+					"location": {
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [ [ "cheated_death" ] ]
+}

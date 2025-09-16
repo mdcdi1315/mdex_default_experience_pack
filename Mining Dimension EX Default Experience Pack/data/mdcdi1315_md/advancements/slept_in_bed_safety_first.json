@@ -1,0 +1,40 @@
+{
+	"parent": "mdcdi1315_md:enter_md_adv",
+	"display": {
+		"announce_to_chat": true,
+		"frame": "task",
+		"hidden": false,
+		"show_toast": false,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.slept_in_bed.title",
+				"color": "green"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.slept_in_bed.desc"
+			}
+		],
+		"icon": {
+			"item": "minecraft:red_bed"
+		}
+	},
+	"criteria": {
+		"slept_in_bed": {
+			"trigger": "minecraft:slept_in_bed",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"slept_in_bed"
+		]
+	]
+}

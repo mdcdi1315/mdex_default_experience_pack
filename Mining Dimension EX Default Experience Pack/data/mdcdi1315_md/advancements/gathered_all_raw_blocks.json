@@ -1,0 +1,81 @@
+{
+	"parent": "mdcdi1315_md:gathered_raw_block",
+	"display": {
+		"announce_to_chat": true,
+		"frame": "goal",
+		"hidden": false,
+		"show_toast": false,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.got_all_raw_blocks.title",
+				"color": "green"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.got_all_raw_blocks.desc"
+			}
+		],
+		"icon": {
+			"item": "minecraft:raw_gold_block"
+		}
+	},
+	"criteria": {
+		"obtained_raw_iron_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:raw_iron_block" ]
+					}
+				],
+				"player": {
+					"location": {
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		},
+		"obtained_raw_gold_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:raw_gold_block" ]
+					}
+				],
+				"player": {
+					"location": {
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		},
+		"obtained_raw_copper_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:raw_copper_block" ]
+					}
+				],
+				"player": {
+					"location": {
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [ 
+		[ 
+			"obtained_raw_copper_block" 
+		],
+		[ 	
+			"obtained_raw_gold_block"
+		],
+		[
+			"obtained_raw_iron_block"
+		]
+	] 
+}

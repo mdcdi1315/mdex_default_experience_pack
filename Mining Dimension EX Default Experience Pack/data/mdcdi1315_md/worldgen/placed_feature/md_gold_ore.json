@@ -1,0 +1,29 @@
+{
+  "feature": "mdcdi1315_md:md_gold_ore",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 28
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 34
+        },
+        "min_inclusive": {
+          "absolute": -63
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
+
+

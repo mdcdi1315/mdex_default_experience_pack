@@ -1,0 +1,25 @@
+{
+  "type": "mdex:modded_ore",
+  "config": {
+    "modids": [
+      "born_in_chaos_v1"
+    ],
+    "discard_chance_on_air_exposure": 0.372,
+    "size": 12,
+    "targets": [
+      {
+        "state": {
+          "Name": "born_in_chaos_v1:black_argillite"
+        },
+        "target": {
+          "predicate_type": "mdex:any_matching_tag",
+          "tags": [
+            "minecraft:stone_ore_replaceables",
+            "minecraft:deepslate_ore_replaceables",
+            "mdcdi1315_md:hardstone_ore_replaceables"
+          ]
+        }
+      }
+    ]
+  }
+}

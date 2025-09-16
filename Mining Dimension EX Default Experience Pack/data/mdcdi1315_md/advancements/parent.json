@@ -1,0 +1,50 @@
+{
+	"display": {
+		"announce_to_chat": false,
+		"frame": "task",
+		"hidden": true,
+		"show_toast": true,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.parent.title",
+				"color": "green"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.parent.desc"
+			}
+		],
+		"background": "mdcdi1315_md:adv_resources/background.png",
+		"icon": {
+			"item": "minecraft:stone_pickaxe"
+		}
+	},
+	"criteria": {
+		"md_teleporter_created": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "mdex:teleporter" ]
+					}
+				]
+			}
+		},
+		"is_into_md": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "mdcdi1315_md:mining_dim"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"md_teleporter_created",
+			"is_into_md"
+		]
+	],
+	"rewards": {
+		"experience": 1
+	}
+}

@@ -1,0 +1,141 @@
+{
+	"type": "mdcdi1315_md:mining_dim",
+	"generator": {
+		"type": "minecraft:noise",
+		"settings": "mdcdi1315_md:md_default_noise_gen",
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"biomes": [
+				{
+					"biome": "mdcdi1315_md:md_default_biome",
+					"parameters": {
+						"offset": 0,
+						"depth": 0,
+						"erosion": [
+						  -1,
+						  1
+						],
+						"weirdness": [
+						  -1,
+						  1
+						],
+						"temperature": [
+						  -1,
+						  1
+						],
+						"humidity": [
+						  -1,
+						  1
+						],
+						"continentalness": [
+						  -1,
+						  1
+						]
+					}
+				},
+				{
+					"biome": "mdcdi1315_md:md_lush_caves",
+					"parameters": {
+						"continentalness": [
+						  -1,
+						  1
+						],
+						"depth": [
+						  0.31918,
+						  0.872192
+						],
+						"erosion": [
+						  -1,
+						  1
+						],
+						"humidity": [
+						  0.45,
+						  0.93261
+						],
+						"offset": 0.05,
+						"temperature": [
+						  -1,
+						  0.3
+						],
+						"weirdness": [
+						  -1,
+						  0.5
+						]
+					}
+				},
+				{
+					"biome": "mdcdi1315_md:md_treeland_caves",
+					"parameters": {
+						"continentalness": [
+						  -1,
+						  1
+						],
+						"depth": [
+						  0.64782,
+						  0.72152
+						],
+						"erosion": [
+						  -1,
+						  1
+						],
+						"humidity": [
+						  -0.0014,
+						  0.31928
+						],
+						"offset": 0.01,
+						"temperature": [
+						  -0.382928,
+						  0.531
+						],
+						"weirdness": [
+						  -0.879,
+						  0.6180093
+						]
+					}
+				},
+				{
+					"biome": "mdcdi1315_md:md_dripstone_caves",
+					"parameters": {
+						"continentalness": [
+						  0.8,
+						  1
+						],
+						"depth": [
+						  0.23,
+						  0.95
+						],
+						"erosion": [
+						  -1,
+						  1
+						],
+						"humidity": [
+						  -1,
+						  1
+						],
+						"offset": 0,
+						"temperature": [
+						  -1,
+						  1
+						],
+						"weirdness": [
+						  -1,
+						  0.8473
+						]
+					}
+				},
+				{
+					"biome": "mdcdi1315_md:md_deep_dark_biome",
+					"parameters": {
+						"offset": 0,
+						"weirdness": 0,
+						"temperature": [ -1 , 1 ],
+						"humidity": [ -1 , 1 ],
+						"continentalness": [ -1, 1 ],
+						"erosion": [ -1.0, -0.375 ],
+						"depth": [ -1 , 1 ]
+					}
+				}
+			]
+		}
+	}
+}

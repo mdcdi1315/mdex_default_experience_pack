@@ -1,0 +1,23 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "mdcdi1315_md:mining_outposts/largeminingoutpost",
+				"processors": "mdcdi1315_md:miningoutpostltproc",
+				"projection": "rigid"
+			}
+		},
+		{
+			"weight": 7,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"location": "mdcdi1315_md:mining_outposts/smallminingoutpost",
+				"processors": "mdcdi1315_md:miningoutpostltproc",
+				"projection": "rigid"
+			}
+		}
+	]
+}

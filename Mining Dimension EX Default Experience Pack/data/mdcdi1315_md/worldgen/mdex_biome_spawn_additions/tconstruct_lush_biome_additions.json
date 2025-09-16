@@ -1,0 +1,15 @@
+{
+    "biome_id": "mdcdi1315_md:md_lush_caves",
+    "modids": [
+        "tconstruct"
+    ],
+    "category": "monster",
+    "spawners": [
+        {
+            "id": "tconstruct:terracube",
+            "weight": 530,
+            "min_count": 2,
+            "max_count": 5
+        }
+    ]
+}

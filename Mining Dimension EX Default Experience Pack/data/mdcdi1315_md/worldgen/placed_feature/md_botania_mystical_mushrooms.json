@@ -1,0 +1,21 @@
+{
+  "feature": "mdcdi1315_md:md_botania_mystical_mushrooms",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+	  "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 0
+        },
+        "max_inclusive": {
+          "absolute": 30
+        }
+      }
+    }
+  ]
+}

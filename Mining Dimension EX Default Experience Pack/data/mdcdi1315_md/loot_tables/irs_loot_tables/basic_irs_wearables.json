@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:silver_ring"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:cooldown_ring"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:heavy_chain_necklace"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:emerald_stoneplate_ring"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:fireward_ring"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:frostward_ring"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:cast_time_ring"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:conjurers_talisman"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:poisonward_ring"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:concentration_amulet"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:invisibility_ring"
+        },
+        {
+          "type": "mdex:optional_item",
+          "name": "irons_spellbooks:affinity_ring",
+          "functions": [
+            {
+              "function": "irons_spellbooks:randomize_ring_enhancement"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

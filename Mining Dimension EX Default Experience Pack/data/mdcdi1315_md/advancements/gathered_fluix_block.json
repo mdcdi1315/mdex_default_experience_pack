@@ -1,0 +1,46 @@
+{
+	"parent": "mdcdi1315_md:enter_md_adv",
+	"display": {
+		"announce_to_chat": true,
+		"frame": "task",
+		"hidden": false,
+		"show_toast": false,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.got_fluix_block.title",
+				"color": "#191970"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.got_fluix_block.desc",
+				"color": "white"
+			}
+		],
+		"icon": {
+			"item": "ae2:fluix_block"
+		}
+	},
+	"criteria": {
+		"obtained_fluix_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "ae2:fluix_block" ]
+					}
+				],
+				"player": {
+					"location": {
+						"dimension": "mdcdi1315_md:mining_dim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"obtained_fluix_block"
+		]
+	]
+}

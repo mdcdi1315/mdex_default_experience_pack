@@ -1,0 +1,43 @@
+{
+	"parent": "mdcdi1315_md:enter_md_adv",
+	"display": {
+		"announce_to_chat": true,
+		"frame": "goal",
+		"hidden": true,
+		"show_toast": false,
+		"title": [
+			{
+				"translate": "adv.mdcdi1315_md.found_is_catacombs.title",
+				"color": "yellow"
+			}
+		],
+		"description": [
+			{
+				"translate": "adv.mdcdi1315_md.found_is_catacombs.desc"
+			}
+		],
+		"icon": {
+			"item": "irons_spellbooks:legendary_ink"
+		}
+	},
+	"criteria": {
+		"find_isp_catacombs": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structure": "irons_spellbooks:catacombs",
+								"dimension": "mdcdi1315_md:mining_dim"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [ [ "find_isp_catacombs" ] ]
+}

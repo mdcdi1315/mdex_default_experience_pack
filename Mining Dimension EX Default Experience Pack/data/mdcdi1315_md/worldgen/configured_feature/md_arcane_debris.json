@@ -1,0 +1,24 @@
+{
+  "type": "mdex:modded_ore",
+  "config": {
+    "modids": [
+      "irons_spellbooks"
+    ],
+    "discard_chance_on_air_exposure": 0.901,
+    "size": 8,
+    "targets": [
+      {
+        "state": {
+          "Name": "irons_spellbooks:arcane_debris"
+        },
+        "target": {
+          "predicate_type": "mdex:any_matching_tag",
+          "tags": [
+            "minecraft:deepslate_ore_replaceables",
+            "mdcdi1315_md:hardstone_ore_replaceables"
+          ]
+        }
+      }
+    ]
+  }
+}

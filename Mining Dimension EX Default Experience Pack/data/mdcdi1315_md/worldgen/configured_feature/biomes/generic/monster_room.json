@@ -1,0 +1,43 @@
+{
+	"type": "mdex:customizable_monster_room",
+	"config": {
+		"spawner_block": "minecraft:spawner",
+		"additional_spawns": [
+			{
+				"id": "minecraft:skeleton",
+				"weight": 15
+			},
+			{
+				"id": "minecraft:spider",
+				"weight": 10
+			},
+			{
+				"id": "minecraft:zombie",
+				"weight": 20
+			}
+		],
+		"stone_block_provider": {
+			"type": "mdex:noise_provider",
+			"seed": 2339477866,
+			"scale": 2,
+			"noise": {
+				"firstOctave": -3,
+				"amplitudes": [ -1 , 0 , 0 , 5 , 8 , -5 ]
+			},
+			"states": [
+				{
+					"Name": "minecraft:cobblestone"
+				},
+				{
+					"Name": "minecraft:cobblestone"
+				},
+				{
+					"Name": "minecraft:cobblestone"
+				},
+				{
+					"Name": "minecraft:mossy_cobblestone"
+				}
+			]
+		}
+	}
+}
