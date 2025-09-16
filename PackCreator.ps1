@@ -5,6 +5,7 @@ PackCreator.ps1 - A Minecraft: Java Edition Pack Generator
 .DESCRIPTION
 PackCreator.ps1 is a friendly script for creating Minecraft: Java Edition data and resource packs as .zip files. 
 It is useful for using it inside a repository where there you need this for fast-creating releases.
+Apart from the generator, it also offers property expansion to the pack.mcmeta file for easier development and maintainability.
 .PARAMETER InputDirectory
 The directory where the generator will search for pack files.
 The script will fail to execute correctly if this directory is not fully qualified.
@@ -409,11 +410,11 @@ function PropertiesFile_ProcessValue
 			}
 			$literalstarted = $true;
 		} elseif ($c -eq '#') {
-			break; // Comment after the property, break
+			break; # Comment after the property, break
 		} elseif (($literalstarted -eq $false) -and (($c -eq ' ') -or ($c -eq '`t'))) {
-			break; // The property has been possibly defined
+			break; # The property has been possibly defined
 		} elseif (($c -eq '`r') -or ($c -eq '`n')) {
-			break; // Break at such case
+			break; # Break at such case
 		} else {
 			$null = $sb.Append($c);
 			continue;
@@ -465,6 +466,7 @@ function ProcessPropertyExpandedFile
 	[System.IO.StreamWriter] $streamdataoutwriter = $null;
 	
 	try {
+		# Open a stream reader of the stream data to expand, assuming UTF-8 if the encoding cannot be determined
 		$stream_input = [System.IO.StreamReader]::new($InputFileData , [System.Text.Encoding]::UTF8 , $true, 4096, $false);
 		
 		[System.String] $tempstring = $null;
@@ -474,6 +476,17 @@ function ProcessPropertyExpandedFile
 		[System.Text.StringBuilder] $sb2 = [System.Text.StringBuilder]::new();
 		[System.Text.StringBuilder] $sb = [System.Text.StringBuilder]::new(500);
 		
+		<# 
+			This formatter supports the following property Gradle-like syntax:
+		
+			${Name} - Expands the property named 'Name'.
+
+			$$ - Escapes the dollar sign required for expanding properties.
+
+			Thus, even if this formatter runs on a JSON file (that are using braces), the formatter will not fail because it requires a dollar sign first in order to work.
+
+			Appropriate error messages are reported on any failure. (e.g. unclosed property definition and EOL reached)
+		#>
 		while ($stream_input.EndOfStream -eq $false)
 		{
 			$lineordinal++;
@@ -530,6 +543,7 @@ function ProcessPropertyExpandedFile
 		
 		$streamdataoutwriter.Flush();
 		
+
 	} finally {
 		DisposeObjectIfNotNull -Disposable $stream_input;
 		DisposeObjectIfNotNull -Disposable $streamdataoutwriter;
@@ -538,6 +552,9 @@ function ProcessPropertyExpandedFile
 
 PrintMessageLine("Initialization phase 2 completed.");
 
+# Creates a Minecraft pack , either if this is a resource or data pack
+# Does also check whether pack.png and pack.mcmeta files do exist.
+# For pack.mcmeta, it reports a failure and the script exits; for pack.png, an appropriate warning is displayed.
 function CreateMinecraftPackage
 {
 	param(
@@ -667,6 +684,13 @@ CreateDirectoryIfNotExisting -Where $OutputDirectory
 
 PrintMessageLine("Processing properties file " + $PropertiesFile);
 
+# Load properties file.
+# This is the Gradle properties file, so that mod developers are familiar with the properties semantics defined there.
+
+# An additional extension for the properties file is the string literals, enclosed in double quotes instead.
+
+# TODO: String literal support with ''' is not implemented yet. Implement such support.
+
 [System.Collections.Generic.IDictionary[System.String,System.String]] $properties = CreateStringDictionary;
 [System.IO.StreamReader] $reader;
 [System.IO.FileStream] $fsm = OpenExistingFile_ReadOnly -Path $PropertiesFile;
@@ -740,6 +764,8 @@ if ($properties.ContainsKey("ReleaseCycle") -eq $false)
 	Print_WarningMessageLine("Cannot find the property 'ReleaseCycle' in the project properties file. It is recommended to set this property to one of the valid release cycles (Snapshot, Pre-Release and Stable) so that the users can be warned about beta features.");
 	$properties.Add("ReleaseCycle" , "Snapshot");
 }
+
+# Find pack files for processing
 
 foreach ($directory in (EnumerateDirectoriesOnlyPassedDirectory -Path $InputDirectory))
 {
