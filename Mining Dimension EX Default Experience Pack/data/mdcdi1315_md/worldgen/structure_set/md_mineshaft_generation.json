@@ -1,0 +1,19 @@
+{
+	"structures": [
+		{
+			"structure": "mdcdi1315_md:md_default_mineshaft",
+			"weight": 1
+		},
+		{
+			"structure": "mdcdi1315_md:md_treeland_mineshaft",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"salt": 75672385,
+		"frequency": 0.765993,
+		"spacing": 12,
+		"separation": 4,
+		"type": "minecraft:random_spread"
+	}
+}

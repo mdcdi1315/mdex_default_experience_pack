@@ -21,7 +21,7 @@
 		}
 	},
 	"criteria": {
-		"found_mineshaft": {
+		"found_mineshaft_default": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
@@ -30,7 +30,24 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "minecraft:mineshaft",
+								"structure": "mdcdi1315_md:md_default_minsshaft",
+								"dimension": "mdcdi1315_md:mining_dim"
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_mineshaft_treeland": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structure": "mdcdi1315_md:md_treeland_minsshaft",
 								"dimension": "mdcdi1315_md:mining_dim"
 							}
 						}
@@ -39,5 +56,5 @@
 			}
 		}
 	},
-	"requirements": [ [ "found_mineshaft" ] ]
+	"requirements": [ [ "found_mineshaft_default", "found_mineshaft_treeland" ] ]
 }

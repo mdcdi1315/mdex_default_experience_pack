@@ -10,7 +10,7 @@
 		"mdcdi1315_md:md_skeleton_gear_set"
 	],
 	"dimensions": [
-		"mining_dimension:mining"
+		"mdcdi1315_md:mining_dim"
 	],
 	"min_rarity": "uncommon",
 	"max_rarity": "rare",

@@ -1,0 +1,20 @@
+{
+	"type": "mdex:customizable_mineshaft",
+	"biomes": [
+		"mdcdi1315_md:md_treeland_caves"
+	],
+	"step": "underground_structures",
+	"planks_state": {
+		"Name": "minecraft:dark_oak_planks"
+	},
+	"fence_state": {
+		"Name": "minecraft:spruce_fence"
+	},
+	"torch_state": {
+		"Name": "minecraft:wall_torch"
+	},
+	"wood_state": {
+		"Name": "minecraft:dark_oak_log"
+	},
+	"spawn_overrides": {}
+}

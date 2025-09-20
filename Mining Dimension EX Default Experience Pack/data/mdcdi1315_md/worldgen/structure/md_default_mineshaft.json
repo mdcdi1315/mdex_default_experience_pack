@@ -1,0 +1,22 @@
+{
+	"type": "mdex:customizable_mineshaft",
+	"biomes": [
+		"mdcdi1315_md:md_default_biome",
+		"mdcdi1315_md:md_lush_caves",
+		"mdcdi1315_md:md_dripstone_caves"
+	],
+	"step": "underground_structures",
+	"planks_state": {
+		"Name": "minecraft:oak_planks"
+	},
+	"fence_state": {
+		"Name": "minecraft:oak_fence"
+	},
+	"torch_state": {
+		"Name": "minecraft:wall_torch"
+	},
+	"wood_state": {
+		"Name": "minecraft:oak_log"
+	},
+	"spawn_overrides": {}
+}
