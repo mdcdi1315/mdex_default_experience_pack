@@ -62,8 +62,5 @@
 	"sub.mdcdi1315_md.md_default_sound_pool": "Mining Dimension Biomes - Default Music",
 	"sub.mdcdi1315_md.md_default_biome_sound_pool": "Mining Dimension Default Biome Music",
 	"sub.mdcdi1315_md.md_dripstone_caves_sound_pool": "Mining Dimension Dripstone Caves Music",
-	"sub.mdcdi1315_md.md_lush_caves_sound_pool": "Mining Dimension Lush Caves Music",
-	"sub.mdcdi1315_md.md_mantle_caves_sound_pool": "Mining Dimension Mantle Caves Music",
-	"sub.mdcdi1315_md.md_thermal_caves_sound_pool": "Mining Dimension Thermal Caves Music",
-	"sub.mdcdi1315_md.md_infested_caves_sound_pool": "Mining Dimension Infested Caves Music"
+	"sub.mdcdi1315_md.md_lush_caves_sound_pool": "Mining Dimension Lush Caves Music"
 }

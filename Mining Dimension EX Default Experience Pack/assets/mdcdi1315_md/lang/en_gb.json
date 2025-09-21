@@ -9,10 +9,6 @@
 	"adv.mdcdi1315_md.parent.desc": "The core and the beginning of the Mining Dimension experience!!",
 	"adv.mdcdi1315_md.enter_md.title": "Inside the Mining Dimension",
 	"adv.mdcdi1315_md.enter_md.desc": "Get into a dimension designed for endless mining",
-	"adv.mdcdi1315_md.found_ap_spawner.title": "Apothic Boss Grind",
-	"adv.mdcdi1315_md.found_ap_spawner.desc": "Find an Apothic Spawner structure , which does spawn an Apothic Boss!",
-	"adv.mdcdi1315_md.found_cabin.title": "Alex's Caves Method 2",
-	"adv.mdcdi1315_md.found_cabin.desc": "Find an underground cabin , which can give you access to some of the most rare Overworld cave biomes.",
 	"adv.mdcdi1315_md.found_is_catacombs.title": "Should this be here?",
 	"adv.mdcdi1315_md.found_is_catacombs.desc": "Find the Iron's , Spells and Spellbooks catacombs structure in the Mining Dimension",
 	"adv.mdcdi1315_md.found_mineshaft.title": "Even here does this exist?",
@@ -62,8 +58,5 @@
 	"sub.mdcdi1315_md.md_default_sound_pool": "Mining Dimension Biomes - Default Music",
 	"sub.mdcdi1315_md.md_default_biome_sound_pool": "Mining Dimension Default Biome Music",
 	"sub.mdcdi1315_md.md_dripstone_caves_sound_pool": "Mining Dimension Dripstone Caves Music",
-	"sub.mdcdi1315_md.md_lush_caves_sound_pool": "Mining Dimension Lush Caves Music",
-	"sub.mdcdi1315_md.md_mantle_caves_sound_pool": "Mining Dimension Mantle Caves Music",
-	"sub.mdcdi1315_md.md_thermal_caves_sound_pool": "Mining Dimension Thermal Caves Music",
-	"sub.mdcdi1315_md.md_infested_caves_sound_pool": "Mining Dimension Infested Caves Music"
+	"sub.mdcdi1315_md.md_lush_caves_sound_pool": "Mining Dimension Lush Caves Music"
 }

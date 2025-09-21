@@ -2,6 +2,9 @@
 	"type": "mdex:customizable_monster_room",
 	"config": {
 		"spawner_block": "minecraft:spawner",
+		"reward_chest_placement": {
+			"loot_table_id": "mdcdi1315_md:md_simple_dungeon_chests"
+		},
 		"additional_spawns": [
 			{
 				"id": "minecraft:skeleton",
@@ -22,7 +25,7 @@
 			"scale": 2,
 			"noise": {
 				"firstOctave": -3,
-				"amplitudes": [ -1 , 0 , 0 , 5 , 8 , -5 ]
+				"amplitudes": [ -1, 0, 0, 5, 8, -5 ]
 			},
 			"states": [
 				{

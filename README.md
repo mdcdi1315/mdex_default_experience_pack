@@ -33,4 +33,15 @@ You have possibly reached here:
 
 Done! press the `Done` button and you are good to go.
 
+Installing the resource pack (Client side only):
 
+The provided resource pack is also needed for providing 
+the translations, correct advancement display and the music that currently accompanies the defined biomes.
+
+A similar process is done for installing that pack, except that you install it through the 'Resource Packs' option in the 'Options...' menu.
+
+Here is the button for reference:
+
+Note, you do the exact same actions for installing the resource pack but remember to select instead the ZIP file that has the word 'Resources' in it's name.
+
+<img src="resource_pack_button_options_menu.png" width="600" height="450" />

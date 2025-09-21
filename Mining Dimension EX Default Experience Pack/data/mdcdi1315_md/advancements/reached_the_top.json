@@ -29,8 +29,8 @@
 					"location": {
 						"position": {
 							"y": {
-								"min": 176,
-								"max": 185
+								"min": 111,
+								"max": 114
 							}
 						},
 						"dimension": "mdcdi1315_md:mining_dim"
