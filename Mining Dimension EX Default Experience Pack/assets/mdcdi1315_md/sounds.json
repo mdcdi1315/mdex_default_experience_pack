@@ -3,94 +3,81 @@
 		"subtitle": "sub.mdcdi1315_md.md_default_sound_pool",
 		"sounds": [
 			{
-				"name": "mdcdi1315_md:shared/moog_city_2",
+				"name": "minecraft:music/menu/moog_city_2",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/a_familiar_room",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/comforting_memories",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 0.4
 			},
 			{
 				"name": "minecraft:music/game/floating_dream",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 0.4
 			},
 			{
 				"name": "minecraft:music/game/one_more_day",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 0.4
 			},
 			{
 				"name": "minecraft:music/game/infinite_amethyst",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/wending",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/calm1",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/calm2",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/calm3",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/hal1",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/hal2",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/hal4",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			}
 		]
@@ -103,45 +90,39 @@
 				"type": "event"
 			},
 			{
-				"name": "mdcdi1315_md:shared/deeper",
+				"name": "minecraft:music/game/deeper",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 0.921
 			},
 			{
-				"name": "mdcdi1315_md:shared/eld_unknown",
+				"name": "minecraft:music/game/eld_unknown",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
-				"name": "mdcdi1315_md:shared/endless",
+				"name": "minecraft:music/game/endless",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
-				"name": "mdcdi1315_md:shared/featherfall",
+				"name": "minecraft:music/game/featherfall",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
-				"name": "mdcdi1315_md:shared/watcher",
+				"name": "minecraft:music/game/watcher",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
-				"name": "mdcdi1315_md:shared/yakusoku",
+				"name": "minecraft:music/game/yakusoku",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 0.8
 			}
 		]
@@ -157,29 +138,25 @@
 				"name": "minecraft:music/game/wending",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
-				"name": "mdcdi1315_md:shared/endless",
+				"name": "minecraft:music/game/endless",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 0.4,
 				"weight": 2
 			},
 			{
-				"name": "mdcdi1315_md:shared/deeper",
+				"name": "minecraft:music/game/deeper",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 0.4
 			},
 			{
-				"name": "mdcdi1315_md:shared/eld_unknown",
+				"name": "minecraft:music/game/eld_unknown",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0,
 				"weight": 2
 			}
@@ -196,36 +173,31 @@
 				"name": "minecraft:music/game/an_ordinary_day",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/left_to_bloom",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 0.4,
 				"weight": 2
 			},
 			{
-				"name": "mdcdi1315_md:shared/watcher",
+				"name": "minecraft:music/game/watcher",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 1.0
 			},
 			{
 				"name": "minecraft:music/game/bromeliad",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 0.7
 			},
 			{
-				"name": "mdcdi1315_md:shared/featherfall",
+				"name": "minecraft:music/game/featherfall",
 				"stream": true,
 				"preload": false,
-				"type": "file",
 				"volume": 0.4,
 				"weight": 2
 			}

@@ -9,10 +9,8 @@
     "vegetation_chance": 0.7856,
     "xz_radius": {
       "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 1,
-        "max_inclusive": 4
-      }
+      "min_inclusive": 1,
+      "max_inclusive": 4
     },
     "replaceable": "#mdcdi1315_md:md_cave_stone_blocks",
     "ground_state": {

@@ -86,10 +86,8 @@
     "noise_multiplier": 0.05,
     "outer_wall_distance": {
       "type": "minecraft:uniform",
-      "value": {
-        "max_inclusive": 4,
-        "min_inclusive": 3
-      }
+      "max_inclusive": 4,
+      "min_inclusive": 3
     },
     "placements_require_layer0_alternate": true,
     "point_offset": 1,

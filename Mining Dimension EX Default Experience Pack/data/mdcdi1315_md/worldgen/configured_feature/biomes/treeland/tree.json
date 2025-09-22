@@ -47,10 +47,8 @@
 			"type": "minecraft:blob_foliage_placer",
 			"radius": {
 				"type": "minecraft:uniform",
-				"value": {
-					"min_inclusive": 1,
-					"max_inclusive": 3
-				}
+				"min_inclusive": 1,
+				"max_inclusive": 3
 			},
 			"offset": 0,
 			"height": 3
