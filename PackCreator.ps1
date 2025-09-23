@@ -573,11 +573,14 @@ function CreateMinecraftPackage
 	[System.IO.Compression.ZipArchiveEntry] $archentry = $null;
 	
 	[System.String] $PackageTypeFriendlyName = $null;
+	[System.String] $ExpectedMcMetaFileName = $null;
 	
 	if ($PackageType -eq "assets") {
 		$PackageTypeFriendlyName = "Resources";
+		$ExpectedMcMetaFileName = "pack_assets.mcmeta";
 	} elseif ($PackageType -eq "data") {
 		$PackageTypeFriendlyName = "Data";
+		$ExpectedMcMetaFileName = "pack_data.mcmeta";
 	}
 	
 	[System.String] $fp = [System.IO.Path]::Combine(
@@ -600,31 +603,43 @@ function CreateMinecraftPackage
 	try {
 		$out = CreateFile -Path $fp;
 		$archive = CreateZipArchiveObject_Creation -Stream $out;		
+
+		[System.String] $CFileName = $null;
 		
 		foreach ($fileinfo in (EnumerateFilesOnlyPassedDirectory -Path $InputDirectory))
 		{
-			if ($fileinfo.Name -eq "pack.mcmeta") {
-				$packmcmetafilefound = $true;
-				$null = ProcessPropertyExpandedFile -InputFileData $fileinfo.OpenRead() -FinalArchiveEntry $archive.CreateEntry($fileinfo.Name) -Properties $Properties
+			# First processing pass - transform the name 
+			if ($fileinfo.Name -eq $ExpectedMcMetaFileName) {
+				$CFileName = "pack.mcmeta";
+			} elseif ($fileinfo.Extension -eq ".mcmeta") {
 				continue;
-			} elseif ($fileinfo.Name -eq "pack.png") {
-				$packpngfilefound = $true;
+			} else {
+				$CFileName = $fileinfo.Name;
 			}
-			try {
-				$archentry = $archive.CreateEntry($fileinfo.Name);
-				$tp = $fileinfo.OpenRead();
-				$archtempstream = $archentry.Open();
+			# Second processing pass - decide what has to be done
+			if ($CFileName -eq "pack.png") {
+				$packpngfilefound = $true;
+			} elseif ($CFileName -eq "pack.mcmeta") {
+				$packmcmetafilefound = $true;
+				$null = ProcessPropertyExpandedFile -InputFileData $fileinfo.OpenRead() -FinalArchiveEntry $archive.CreateEntry($CFileName) -Properties $Properties
+				continue;
+			} else {
+				try {
+					$archentry = $archive.CreateEntry($CFileName);
+					$tp = $fileinfo.OpenRead();
+					$archtempstream = $archentry.Open();
 				
-				$null = CopySpecifiedStreamTo -Source $tp -Destination $archtempstream
+					$null = CopySpecifiedStreamTo -Source $tp -Destination $archtempstream
 				
-			} finally {
-				DisposeObjectIfNotNull -Disposable $archtempstream;
-				DisposeObjectIfNotNull -Disposable $tp;
+				} finally {
+					DisposeObjectIfNotNull -Disposable $archtempstream;
+					DisposeObjectIfNotNull -Disposable $tp;
+				}
 			}
 		}
 		
 		if ($packmcmetafilefound -eq $false) {
-			throw "The pack.mcmeta file required for pack cannot be retrieved.";
+			throw [System.String]::Format("The {0} file required for pack cannot be retrieved." , $ExpectedMcMetaFileName);
 		}
 		
 		if ($packpngfilefound -eq $false) {

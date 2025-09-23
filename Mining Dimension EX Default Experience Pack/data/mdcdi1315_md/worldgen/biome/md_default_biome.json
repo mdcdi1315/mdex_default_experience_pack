@@ -13,12 +13,6 @@
 			"tick_delay": 6000,
 			"block_search_extent": 8,
 			"offset": 2
-		},
-		"music": {
-			"max_delay": 24000,
-			"min_delay": 330,
-			"replace_current_music": false,
-			"sound": "mdcdi1315_md:md_biomes.default_biome_sound_pool"
 		}
 	},
 	"carvers": {
