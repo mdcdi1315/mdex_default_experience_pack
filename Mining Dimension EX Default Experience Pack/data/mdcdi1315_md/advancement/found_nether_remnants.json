@@ -18,7 +18,7 @@
 			}
 		],
 		"icon": {
-			"item": "minecraft:cracked_polished_blackstone_bricks"
+			"id": "minecraft:cracked_polished_blackstone_bricks"
 		}
 	},
 	"criteria": {
@@ -31,7 +31,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "mdcdi1315_md:md_nether_remnants",
+								"structures": "mdcdi1315_md:md_nether_remnants",
 								"dimension": "mdcdi1315_md:mining_dim"
 							}
 						}

@@ -17,7 +17,7 @@
 			}
 		],
 		"icon": {
-			"item": "born_in_chaos_v1:black_argillite"
+			"id": "born_in_chaos_v1:black_argillite"
 		}
 	},
 	"criteria": {

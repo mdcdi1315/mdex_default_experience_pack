@@ -17,7 +17,7 @@
 			}
 		],
 		"icon": {
-			"item": "irons_spellbooks:legendary_ink"
+			"id": "irons_spellbooks:legendary_ink"
 		}
 	},
 	"criteria": {
@@ -30,7 +30,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "irons_spellbooks:catacombs",
+								"structures": "irons_spellbooks:catacombs",
 								"dimension": "mdcdi1315_md:mining_dim"
 							}
 						}

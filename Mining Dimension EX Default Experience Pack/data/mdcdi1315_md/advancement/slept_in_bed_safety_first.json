@@ -17,7 +17,7 @@
 			}
 		],
 		"icon": {
-			"item": "minecraft:red_bed"
+			"id": "minecraft:red_bed"
 		}
 	},
 	"criteria": {

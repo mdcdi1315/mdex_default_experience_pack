@@ -17,7 +17,7 @@
 			}
 		],
 		"icon": {
-			"item": "minecraft:raw_gold_block"
+			"id": "minecraft:raw_gold_block"
 		}
 	},
 	"criteria": {

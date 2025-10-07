@@ -1,0 +1,20 @@
+{
+  "modids": [
+    "irons_spellbooks"
+  ],
+  "biomes": [
+    "mdcdi1315_md:md_default_biome",
+    "mdcdi1315_md:md_dripstone_caves"
+  ],
+  "spawners": {
+    "category": "monster",
+    "entities": [
+      {
+        "entity_id": "irons_spellbooks:cryomancer",
+        "weight": 2,
+        "min_count": 1,
+        "max_count": 1
+      }
+    ]
+  }
+}

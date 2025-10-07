@@ -617,13 +617,14 @@ function CreateMinecraftPackage
 				$CFileName = $fileinfo.Name;
 			}
 			# Second processing pass - decide what has to be done
-			if ($CFileName -eq "pack.png") {
-				$packpngfilefound = $true;
-			} elseif ($CFileName -eq "pack.mcmeta") {
+			if ($CFileName -eq "pack.mcmeta") {
 				$packmcmetafilefound = $true;
 				$null = ProcessPropertyExpandedFile -InputFileData $fileinfo.OpenRead() -FinalArchiveEntry $archive.CreateEntry($CFileName) -Properties $Properties
 				continue;
 			} else {
+				if ($CFileName -eq "pack.png") {
+					$packpngfilefound = $true;
+				}
 				try {
 					$archentry = $archive.CreateEntry($CFileName);
 					$tp = $fileinfo.OpenRead();

@@ -18,7 +18,7 @@
 			}
 		],
 		"icon": {
-			"item": "minecraft:netherrack"
+			"id": "minecraft:netherrack"
 		}
 	},
 	"criteria": {

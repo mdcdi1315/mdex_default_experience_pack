@@ -17,7 +17,7 @@
 			}
 		],
 		"icon": {
-			"item": "irons_spellbooks:cultist_helmet"
+			"id": "irons_spellbooks:cultist_helmet"
 		}
 	},
 	"criteria": {

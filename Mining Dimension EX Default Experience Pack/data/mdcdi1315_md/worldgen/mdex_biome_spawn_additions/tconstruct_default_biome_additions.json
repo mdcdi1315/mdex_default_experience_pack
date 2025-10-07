@@ -1,15 +1,22 @@
 {
-    "biome_id": "mdcdi1315_md:md_default_biome",
-    "modids": [
-        "tconstruct"
-    ],
+  "modids": [
+    "tconstruct"
+  ],
+  "biomes": [
+    "mdcdi1315_md:md_default_biome",
+    "mdcdi1315_md:md_lush_caves",
+    "mdcdi1315_md:md_treeland_caves",
+    "mdcdi1315_md:md_dripstone_caves"
+  ],
+  "spawners": {
     "category": "monster",
-    "spawners": [
-        {
-            "id": "tconstruct:terracube",
-            "weight": 530,
-            "min_count": 2,
-            "max_count": 5
-        }
+    "entities": [
+      {
+        "entity_id": "tconstruct:terracube",
+        "weight": 530,
+        "min_count": 2,
+        "max_count": 5
+      }
     ]
+  }
 }

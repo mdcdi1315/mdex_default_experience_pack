@@ -16,5 +16,14 @@
 	"wood_state": {
 		"Name": "minecraft:dark_oak_log"
 	},
-	"spawn_overrides": {}
+	"spawn_overrides": {},
+	"starting_y_level": {
+		"type": "minecraft:uniform",
+		"max_inclusive": {
+			"absolute": 65
+		},
+		"min_inclusive": {
+			"absolute": -7
+		}
+	}
 }

@@ -18,7 +18,7 @@
 			}
 		],
 		"icon": {
-			"item": "minecraft:bone"
+			"id": "minecraft:bone"
 		}
 	},
 	"criteria": {

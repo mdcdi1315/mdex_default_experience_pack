@@ -17,7 +17,7 @@
 			}
 		],
 		"icon": {
-			"item": "irons_spellbooks:cryomancer_helmet"
+			"id": "irons_spellbooks:cryomancer_helmet"
 		}
 	},
 	"criteria": {

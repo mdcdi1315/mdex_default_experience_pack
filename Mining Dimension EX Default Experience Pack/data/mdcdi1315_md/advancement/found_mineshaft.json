@@ -17,7 +17,7 @@
 			}
 		],
 		"icon": {
-			"item": "minecraft:oak_planks"
+			"id": "minecraft:oak_planks"
 		}
 	},
 	"criteria": {
@@ -30,7 +30,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "mdcdi1315_md:md_default_minsshaft",
+								"structures": "mdcdi1315_md:md_default_minsshaft",
 								"dimension": "mdcdi1315_md:mining_dim"
 							}
 						}
@@ -47,7 +47,7 @@
 						"entity": "this",
 						"predicate": {
 							"location": {
-								"structure": "mdcdi1315_md:md_treeland_minsshaft",
+								"structures": "mdcdi1315_md:md_treeland_minsshaft",
 								"dimension": "mdcdi1315_md:mining_dim"
 							}
 						}

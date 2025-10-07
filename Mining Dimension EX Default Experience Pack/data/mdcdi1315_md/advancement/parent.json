@@ -17,7 +17,8 @@
 		],
 		"background": "mdcdi1315_md:adv_resources/background.png",
 		"icon": {
-			"item": "minecraft:stone_pickaxe"
+			"id": "minecraft:stone_pickaxe",
+			"count": 1
 		}
 	},
 	"criteria": {
