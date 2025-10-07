@@ -1,0 +1,40 @@
+{
+  "modids": [
+    "irons_spellbooks"
+  ],
+  "biomes": [
+    "mdcdi1315_md:md_default_biome",
+    "mdcdi1315_md:md_lush_caves",
+    "mdcdi1315_md:md_treeland_caves",
+    "mdcdi1315_md:md_dripstone_caves"
+  ],
+  "spawners": {
+    "category": "monster",
+    "entities": [
+      {
+        "entity_id": "irons_spellbooks:pyromancer",
+        "weight": 10,
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "entity_id": "irons_spellbooks:archevoker",
+        "weight": 1,
+        "min_count": 1,
+        "max_count": 1
+      },
+      {
+        "entity_id": "irons_spellbooks:cultist",
+        "weight": 1,
+        "min_count": 1,
+        "max_count": 2
+      },
+      {
+        "entity_id": "irons_spellbooks:necromancer",
+        "weight": 370,
+        "min_count": 1,
+        "max_count": 1
+      }
+    ]
+  }
+}

@@ -8,107 +8,75 @@
     "feature": {
       "feature": {
         "type": "mdex:modded_simple_block",
-		"modids": [
-			"botania"
-		],
         "config": {
+          "modids": [
+            "botania"
+          ],
           "to_place": {
             "type": "mdex:weighted_state_provider",
             "entries": [
               {
-                "data": {
-                  "Name": "botania:white_mushroom"
-                },
+                "Name": "botania:white_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:orange_mushroom"
-                },
+                "Name": "botania:orange_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:magenta_mushroom"
-                },
+                "Name": "botania:magenta_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:light_blue_mushroom"
-                },
+                "Name": "botania:light_blue_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:yellow_mushroom"
-                },
+                "Name": "botania:yellow_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:lime_mushroom"
-                },
+                "Name": "botania:lime_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:pink_mushroom"
-                },
+                "Name": "botania:pink_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:gray_mushroom"
-                },
+                "Name": "botania:gray_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:light_gray_mushroom"
-                },
+                "Name": "botania:light_gray_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:cyan_mushroom"
-                },
+                "Name": "botania:cyan_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:purple_mushroom"
-                },
+                "Name": "botania:purple_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:blue_mushroom"
-                },
+                "Name": "botania:blue_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:brown_mushroom"
-                },
+                "Name": "botania:brown_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:green_mushroom"
-                },
+                "Name": "botania:green_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:red_mushroom"
-                },
+                "Name": "botania:red_mushroom",
                 "weight": 1
               },
               {
-                "data": {
-                  "Name": "botania:black_mushroom"
-                },
+                "Name": "botania:black_mushroom",
                 "weight": 1
               }
             ]
