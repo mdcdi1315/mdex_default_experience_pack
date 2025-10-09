@@ -1,0 +1,16 @@
+{
+  "type": "mdex:fallen_tree",
+  "config": {
+    "log_block": "minecraft:dark_oak_log",
+    "vegetation_patch": {
+      "feature": "mdcdi1315_md:md_patch_brown_mushroom",
+      "placement": []
+    },
+    "vegetation_patch_placement_probability": 0.78,
+    "fallen_logs_count": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 8
+    }
+  }
+}

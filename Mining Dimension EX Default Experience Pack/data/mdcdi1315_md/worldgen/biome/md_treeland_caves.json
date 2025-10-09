@@ -198,6 +198,7 @@
 		[
 			"mdcdi1315_md:biomes/treeland/tree",
 			"mdcdi1315_md:biomes/treeland/log_pile",
+			"mdcdi1315_md:biomes/treeland/fallen_tree",
 			"mdcdi1315_md:biomes/treeland/grass_patch",
 			"mdcdi1315_md:md_botania_mystical_mushrooms"
 		],

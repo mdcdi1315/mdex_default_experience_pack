@@ -1,0 +1,21 @@
+{
+  "feature": "mdcdi1315_md:biomes/treeland/fallen_tree",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 29
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 30
+        },
+        "min_inclusive": {
+          "absolute": -52
+        }
+      }
+    }
+  ]
+}
