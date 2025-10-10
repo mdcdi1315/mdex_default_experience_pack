@@ -3,29 +3,29 @@
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 29
+			"count": 30
 		},
 		{
 			"type": "mdex:randomize_input_position",
 			"x_offset": {
 				"type": "minecraft:uniform",
-				"min_inclusive": 0,
-				"max_inclusive": 6
+				"min_inclusive": -11,
+				"max_inclusive": 11
 			},
 			"y_offset": {
 				"type": "minecraft:uniform",
-				"min_inclusive": 0,
-				"max_inclusive": 4
+				"min_inclusive": -3,
+				"max_inclusive": 5
 			},
 			"z_offset": {
 				"type": "minecraft:uniform",
-				"min_inclusive": 0,
-				"max_inclusive": 6
+				"min_inclusive": -11,
+				"max_inclusive": 11
 			},
 			"positions_count": {
 				"type": "minecraft:uniform",
-				"min_inclusive": 2,
-				"max_inclusive": 15
+				"min_inclusive": 1,
+				"max_inclusive": 8
 			}
 		},
 		{

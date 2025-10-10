@@ -160,7 +160,7 @@
 			"mdcdi1315_md:biomes/generic/ore_diorite_lower",
 			"mdcdi1315_md:biomes/generic/ore_andesite_upper",
 			"mdcdi1315_md:biomes/generic/ore_andesite_lower",
-			
+
 			"mdcdi1315_md:md_coal_ore",
 			"mdcdi1315_md:md_diamond_ore",
 			"mdcdi1315_md:md_iron_ore",
@@ -180,7 +180,10 @@
 			"mdcdi1315_md:md_raw_gold_block_blob",
 			"mdcdi1315_md:md_raw_iron_block_blob",
 			"mdcdi1315_md:md_bic_v1_black_argillite",
-			
+
+			"mdcdi1315_md:md_create_striated_ores_overworld",
+			"mdcdi1315_md:md_tfmg_striated_ores_overworld",
+
 			"minecraft:underwater_magma",
 			"minecraft:disk_sand",
 			"minecraft:disk_gravel",

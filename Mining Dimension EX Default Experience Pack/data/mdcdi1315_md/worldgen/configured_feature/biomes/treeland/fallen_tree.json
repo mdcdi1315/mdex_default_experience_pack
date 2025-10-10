@@ -3,7 +3,28 @@
   "config": {
     "log_block": "minecraft:dark_oak_log",
     "vegetation_patch": {
-      "feature": "mdcdi1315_md:md_patch_brown_mushroom",
+      "feature": {
+        "type": "minecraft:random_selector",
+        "config": {
+          "default": "mdcdi1315_md:md_empty",
+          "features": [
+            {
+              "feature": {
+                "feature": "mdcdi1315_md:md_patch_brown_mushroom",
+                "placement": []
+              },
+              "chance":  0.65
+            },
+            {
+              "feature": {
+                "feature": "mdcdi1315_md:md_patch_red_mushroom",
+                "placement": []
+              },
+              "chance": 0.1982
+            }
+          ]
+        }
+      },
       "placement": []
     },
     "vegetation_patch_placement_probability": 0.78,
