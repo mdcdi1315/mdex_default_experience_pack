@@ -166,7 +166,7 @@
 			"mdcdi1315_md:biomes/generic/ore_diorite_lower",
 			"mdcdi1315_md:biomes/generic/ore_andesite_upper",
 			"mdcdi1315_md:biomes/generic/ore_andesite_lower",
-			
+
 			"mdcdi1315_md:md_coal_ore",
 			"mdcdi1315_md:md_diamond_ore",
 			"mdcdi1315_md:md_iron_ore",
@@ -186,7 +186,9 @@
 			"mdcdi1315_md:md_raw_gold_block_blob",
 			"mdcdi1315_md:md_raw_iron_block_blob",
 			"mdcdi1315_md:md_bic_v1_black_argillite",
-			
+
+			"mdcdi1315_md:md_create_striated_ores_overworld_rarer",
+
 			"minecraft:underwater_magma",
 			"minecraft:disk_sand",
 			"minecraft:disk_gravel",
@@ -204,6 +206,7 @@
 		[
 			"mdcdi1315_md:biomes/treeland/tree",
 			"mdcdi1315_md:biomes/treeland/log_pile",
+			"mdcdi1315_md:biomes/treeland/fallen_tree",
 			"mdcdi1315_md:biomes/treeland/grass_patch",
 			"mdcdi1315_md:md_botania_mystical_mushrooms"
 		],

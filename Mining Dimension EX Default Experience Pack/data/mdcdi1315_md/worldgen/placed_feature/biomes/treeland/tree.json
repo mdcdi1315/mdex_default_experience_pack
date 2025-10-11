@@ -3,34 +3,48 @@
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 29
+			"count": 30
+		},
+		{
+			"type": "mdex:randomize_input_position",
+			"x_offset": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": -11,
+					"max_inclusive": 11
+				}
+			},
+			"y_offset": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": -3,
+					"max_inclusive": 5
+				}
+			},
+			"z_offset": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": -11,
+					"max_inclusive": 11
+				}
+			},
+			"positions_count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 1,
+					"max_inclusive": 8
+				}
+			}
 		},
 		{
 			"type": "minecraft:height_range",
 			"height": {
 				"type": "minecraft:uniform",
 				"max_inclusive": {
-				  "absolute": 30
+					"absolute": 30
 				},
 				"min_inclusive": {
-				  "absolute": -52
-				}
-			}
-		},
-		{
-			"type": "minecraft:random_offset",
-			"y_spread": {
-				"type": "minecraft:uniform",
-				"value": {
-					"min_inclusive": 0,
-					"max_inclusive": 2
-				}
-			},
-			"xz_spread": {
-				"type": "minecraft:uniform",
-				"value": {
-					"min_inclusive": 3,
-					"max_inclusive": 15
+					"absolute": -52
 				}
 			}
 		},
@@ -55,7 +69,7 @@
 							{
 								"type": "minecraft:matching_block_tag",
 								"tag": "mdcdi1315_md:md_cave_stone_blocks",
-								"offset": [ 0 , 0 , 0 ]
+								"offset": [ 0, 0, 0 ]
 							},
 							{
 								"type": "minecraft:matching_blocks",
@@ -63,11 +77,11 @@
 									"minecraft:dirt",
 									"minecraft:grass_block"
 								],
-								"offset": [ 0 , 0 , 0 ]
+								"offset": [ 0, 0, 0 ]
 							},
 							{
 								"type": "minecraft:would_survive",
-								"offset": [ 0 , 0 , 0 ],
+								"offset": [ 0, 0, 0 ],
 								"state": {
 									"Name": "minecraft:dark_oak_sapling",
 									"Properties": {
