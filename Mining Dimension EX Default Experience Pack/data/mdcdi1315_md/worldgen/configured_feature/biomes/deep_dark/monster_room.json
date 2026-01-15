@@ -1,0 +1,56 @@
+{
+  "type": "mdex:customizable_monster_room",
+  "config": {
+    "spawner_block": "minecraft:spawner",
+    "reward_chest_placement": {
+      "loot_table_id": "mdcdi1315_md:md_simple_dungeon_chests"
+    },
+    "additional_spawns": [
+      {
+        "id": "minecraft:skeleton",
+        "weight": 12
+      },
+      {
+        "id": "minecraft:spider",
+        "weight": 8
+      },
+      {
+        "id": "minecraft:zombie",
+        "weight": 10
+      },
+      {
+        "id": "minecraft:vindicator",
+        "weight": 38
+      }
+    ],
+    "stone_block_provider": {
+      "type": "mdex:noise_provider",
+      "seed": 3276872365,
+      "scale": 2,
+      "noise": {
+        "firstOctave": -2,
+        "amplitudes": [ 1, 0, -4, 5, 4, 0 ]
+      },
+      "states": [
+        {
+          "Name": "minecraft:cobblestone"
+        },
+        {
+          "Name": "minecraft:mossy_cobblestone"
+        },
+        {
+          "Name": "minecraft:sculk"
+        },
+        {
+          "Name": "minecraft:sculk"
+        },
+        {
+          "Name": "minecraft:mossy_cobblestone"
+        },
+        {
+          "Name": "minecraft:cobblestone"
+        }
+      ]
+    }
+  }
+}

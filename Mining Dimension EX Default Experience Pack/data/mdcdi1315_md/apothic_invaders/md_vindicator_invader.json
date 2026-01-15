@@ -1,0 +1,148 @@
+{
+  "type": "apotheosis:invader",
+  "entity": "minecraft:vindicator",
+  "basic_data": {
+    "bonus_loot": [
+      "apotheosis:entity/boss_drops"
+    ],
+    "constraints": {
+      "dimensions": [
+        "mdcdi1315_md:mining_dim"
+      ]
+    },
+    "name": "use_name_generation",
+    "valid_gear_sets": {
+      "haven": [
+        "mdcdi1315_md:md_base_gear_set"
+      ],
+      "frontier": [
+        "mdcdi1315_md:md_base_gear_set"
+      ],
+      "ascent": [
+        "mdcdi1315_md:md_base_gear_set"
+      ],
+      "summit": [
+        "mdcdi1315_md:md_base_gear_set"
+      ],
+      "pinnacle": [
+        "mdcdi1315_md:md_base_gear_set"
+      ]
+    },
+    "weights": {
+      "weight": 610,
+      "quality": 4
+    }
+  },
+  "size": {
+    "width": 0.6,
+    "height": 1.95
+  },
+  "stats": {
+    "apotheosis:rare": {
+      "enchant_chance": 0.4392,
+      "enchantment_levels": {
+        "primary": 12,
+        "secondary": 27
+      },
+      "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "chance": 1.0
+        },
+        {
+          "effect": "minecraft:speed",
+          "chance": 0.86829
+        }
+      ],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_value",
+          "value": {
+            "min": 40,
+            "max": 120
+          }
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.10,
+            "max": 0.22
+          }
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.25,
+            "max": 0.55
+          }
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "operation": "add_value",
+          "value": 0.4
+        }
+      ]
+    },
+    "apotheosis:epic": {
+      "enchant_chance": 0.65,
+      "enchantment_levels": {
+        "primary": 16,
+        "secondary": 30
+      },
+      "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "chance": 1.0
+        },
+        {
+          "effect": "minecraft:speed",
+          "chance": 0.86829
+        }
+      ],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_value",
+          "value": {
+            "min": 62,
+            "max": 242
+          }
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.15,
+            "max": 0.3
+          }
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.25,
+            "max": 0.55
+          }
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "operation": "add_value",
+          "value": 0.45
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "add_value",
+          "value": 5
+        },
+        {
+          "attribute": "minecraft:generic.armor_toughness",
+          "operation": "add_value",
+          "value": 3
+        }
+      ]
+    }
+  }
+}

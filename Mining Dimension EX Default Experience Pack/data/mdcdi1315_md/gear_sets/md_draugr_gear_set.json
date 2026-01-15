@@ -1,11 +1,12 @@
 {
 	"weight": 300,
 	"quality": 2,
+	"type": "placebo:gear_set",
 	"mainhands": [
 		{
 			"weight": 1,
 			"stack": {
-				"item": "cataclysm:black_steel_sword",
+				"id": "cataclysm:black_steel_sword",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:4, id:\"minecraft:sharpness\"} , {lvl:3, id:\"minecraft:unbreaking\"} , {lvl:1, id:\"minecraft:mending\"} ]}"
 			}
@@ -13,7 +14,7 @@
 		{
 			"weight": 2,
 			"stack": {
-				"item": "cataclysm:black_steel_axe",
+				"id": "cataclysm:black_steel_axe",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:4, id:\"minecraft:sharpness\"} , {lvl:3, id:\"minecraft:unbreaking\"} , {lvl:1, id:\"minecraft:mending\"} ]}"
 			}
@@ -21,7 +22,7 @@
 		{
 			"weight": 3,
 			"stack": {
-				"item": "cataclysm:black_steel_sword",
+				"id": "cataclysm:black_steel_sword",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:3, id:\"minecraft:sharpness\"} , {lvl:1, id:\"minecraft:unbreaking\"} , {lvl:1, id:\"minecraft:mending\"} ]}"
 			}
@@ -29,7 +30,7 @@
 		{
 			"weight": 5,
 			"stack": {
-				"item": "cataclysm:black_steel_sword",
+				"id": "cataclysm:black_steel_sword",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:1, id:\"minecraft:sharpness\"} , {lvl:1, id:\"minecraft:unbreaking\"} ]}"
 			}
@@ -37,7 +38,7 @@
 		{
 			"weight": 5,
 			"stack": {
-				"item": "cataclysm:black_steel_axe",
+				"id": "cataclysm:black_steel_axe",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:2, id:\"minecraft:sharpness\"} , {lvl:1, id:\"minecraft:unbreaking\"} ]}"
 			}
@@ -45,13 +46,13 @@
 		{
 			"weight": 10,
 			"stack": {
-				"item": "cataclysm:black_steel_sword"
+				"id": "cataclysm:black_steel_sword"
 			}
 		},
 		{
 			"weight": 10,
 			"stack": {
-				"item": "minecraft:diamond_sword"
+				"id": "minecraft:diamond_sword"
 			}
 		}
 	],
@@ -61,7 +62,7 @@
 		{
 			"weight": 1,
 			"stack": {
-				"item": "minecraft:diamond_chestplate"
+				"id": "minecraft:diamond_chestplate"
 			}
 		}
 	],
@@ -69,7 +70,7 @@
 		{
 			"weight": 1,
 			"stack": {
-				"item": "minecraft:diamond_leggings"
+				"id": "minecraft:diamond_leggings"
 			}
 		}
 	],
@@ -77,7 +78,7 @@
 		{
 			"weight": 1,
 			"stack": {
-				"item": "minecraft:diamond_boots"
+				"id": "minecraft:diamond_boots"
 			}
 		}
 	],

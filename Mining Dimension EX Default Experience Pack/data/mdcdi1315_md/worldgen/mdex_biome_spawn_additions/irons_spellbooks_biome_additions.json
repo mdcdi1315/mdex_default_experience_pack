@@ -13,7 +13,7 @@
     "entities": [
       {
         "entity_id": "irons_spellbooks:pyromancer",
-        "weight": 10,
+        "weight": 3,
         "min_count": 1,
         "max_count": 1
       },
@@ -25,13 +25,13 @@
       },
       {
         "entity_id": "irons_spellbooks:cultist",
-        "weight": 1,
+        "weight": 6,
         "min_count": 1,
         "max_count": 2
       },
       {
         "entity_id": "irons_spellbooks:necromancer",
-        "weight": 370,
+        "weight": 440,
         "min_count": 1,
         "max_count": 1
       }

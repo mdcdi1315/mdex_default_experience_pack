@@ -1,0 +1,319 @@
+{
+  "type": "apotheosis:invader",
+  "entity": "irons_spellbooks:necromancer",
+  "basic_data": {
+    "bonus_loot": [
+      "apotheosis:entity/boss_drops"
+    ],
+    "constraints": {
+      "dimensions": [
+        "mdcdi1315_md:mining_dim"
+      ]
+    },
+    "name": "use_name_generation",
+    "valid_gear_sets": {
+      "haven": [
+        "mdcdi1315_md:md_irs_necromancer_gear_set",
+        "mdcdi1315_md:md_base_gear_set"
+      ],
+      "frontier": [
+        "mdcdi1315_md:md_irs_necromancer_gear_set",
+        "mdcdi1315_md:md_base_gear_set"
+      ],
+      "ascent": [
+        "mdcdi1315_md:md_irs_necromancer_gear_set",
+        "mdcdi1315_md:md_base_gear_set"
+      ],
+      "summit": [
+        "mdcdi1315_md:md_irs_necromancer_gear_set",
+        "mdcdi1315_md:md_base_gear_set"
+      ],
+      "pinnacle": [
+        "mdcdi1315_md:md_irs_necromancer_gear_set",
+        "mdcdi1315_md:md_base_gear_set"
+      ]
+    },
+    "weights": {
+      "weight": 330,
+      "quality": 2
+    }
+  },
+  "size": {
+    "width": 1,
+    "height": 2
+  },
+  "stats": {
+    "apotheosis:uncommon": {
+      "enchant_chance": 0.25,
+      "enchantment_levels": {
+        "primary": 8,
+        "secondary": 20
+      },
+      "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "chance": 1.0
+        }
+      ],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_value",
+          "value": {
+            "min": 20,
+            "max": 40
+          }
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.05,
+            "max": 0.10
+          }
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.2,
+            "max": 0.4
+          }
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "operation": "add_value",
+          "value": 0.3
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.05,
+            "max": 0.10
+          }
+        },
+        {
+          "attribute": "irons_spellbooks:spell_resist",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.05,
+            "max": 0.1
+          }
+        },
+        {
+          "attribute": "irons_spellbooks:summon_damage",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.05,
+            "max": 0.1
+          }
+        }
+      ]
+    },
+    "apotheosis:rare": {
+      "enchant_chance": 0.35,
+      "enchantment_levels": {
+        "primary": 10,
+        "secondary": 23
+      },
+      "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "chance": 1.0
+        }
+      ],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_value",
+          "value": {
+            "min": 40,
+            "max": 70
+          }
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.10,
+            "max": 0.18
+          }
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.25,
+            "max": 0.5
+          }
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "operation": "add_value",
+          "value": 0.4
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.2,
+            "max": 0.25
+          }
+        },
+        {
+          "attribute": "irons_spellbooks:spell_resist",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.1,
+            "max": 0.15
+          }
+        },
+        {
+          "attribute": "irons_spellbooks:summon_damage",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.1,
+            "max": 0.15
+          }
+        }
+      ]
+    },
+    "apotheosis:epic": {
+      "enchant_chance": 0.35,
+      "enchantment_levels": {
+        "primary": 10,
+        "secondary": 23
+      },
+      "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "chance": 1.0
+        }
+      ],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_value",
+          "value": {
+            "min": 80,
+            "max": 110
+          }
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.15,
+            "max": 0.24
+          }
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.25,
+            "max": 0.5
+          }
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "operation": "add_value",
+          "value": 0.4
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.4,
+            "max": 1.0
+          }
+        },
+        {
+          "attribute": "irons_spellbooks:spell_resist",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.25,
+            "max": 0.3
+          }
+        },
+        {
+          "attribute": "irons_spellbooks:summon_damage",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.4,
+            "max": 0.9
+          }
+        }
+      ]
+    },
+    "apotheosis:mythic": {
+      "enchant_chance": 0.35,
+      "enchantment_levels": {
+        "primary": 10,
+        "secondary": 23
+      },
+      "effects": [
+        {
+          "effect": "minecraft:fire_resistance",
+          "chance": 1.0
+        }
+      ],
+      "attribute_modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "add_value",
+          "value": {
+            "min": 120,
+            "max": 150
+          }
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.15,
+            "max": 0.24
+          }
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.25,
+            "max": 0.5
+          }
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "operation": "add_value",
+          "value": 0.4
+        },
+        {
+          "attribute": "irons_spellbooks:spell_power",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.6,
+            "max": 0.11
+          }
+        },
+        {
+          "attribute": "irons_spellbooks:spell_resist",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.4,
+            "max": 0.11
+          }
+        },
+        {
+          "attribute": "irons_spellbooks:summon_damage",
+          "operation": "add_multiplied_base",
+          "value": {
+            "min": 0.6,
+            "max": 0.11
+          }
+        }
+      ]
+    }
+  }
+}

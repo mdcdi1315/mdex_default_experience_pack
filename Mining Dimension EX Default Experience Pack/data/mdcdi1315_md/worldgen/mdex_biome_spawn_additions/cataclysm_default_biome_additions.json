@@ -13,7 +13,7 @@
     "entities": [
       {
         "entity_id": "cataclysm:draugr",
-        "weight": 40,
+        "weight": 80,
         "min_count": 2,
         "max_count": 5
       }

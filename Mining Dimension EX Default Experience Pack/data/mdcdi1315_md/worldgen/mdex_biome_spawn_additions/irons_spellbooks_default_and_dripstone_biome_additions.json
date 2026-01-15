@@ -11,7 +11,7 @@
     "entities": [
       {
         "entity_id": "irons_spellbooks:cryomancer",
-        "weight": 2,
+        "weight": 5,
         "min_count": 1,
         "max_count": 1
       }

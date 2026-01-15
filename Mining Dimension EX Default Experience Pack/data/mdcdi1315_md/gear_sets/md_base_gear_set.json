@@ -1,10 +1,11 @@
 {
 	"weight": 30,
+	"type": "placebo:gear_set",
 	"mainhands": [
 		{
 			"weight": 1,
 			"stack": {
-				"item": "minecraft:diamond_sword",
+				"id": "minecraft:diamond_sword",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ { lvl:4, id:\"minecraft:sharpness\" } , { lvl:3, id:\"minecraft:unbreaking\" } , { lvl:1, id:\"minecraft:mending\" }]}"
 			}
@@ -12,7 +13,7 @@
 		{
 			"weight": 2,
 			"stack": {
-				"item": "minecraft:diamond_axe",
+				"id": "minecraft:diamond_axe",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ { lvl:3, id:\"minecraft:sharpness\" } , { lvl:3, id:\"minecraft:unbreaking\" } , { lvl:1, id:\"minecraft:mending\" }]}"
 			}
@@ -20,7 +21,7 @@
 		{
 			"weight": 8,
 			"stack": {
-				"item": "minecraft:iron_axe",
+				"id": "minecraft:iron_axe",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ { lvl:2, id:\"minecraft:sharpness\" } , { lvl:1, id:\"minecraft:unbreaking\" } , { lvl:1, id:\"minecraft:mending\" } ]}"
 			}
@@ -28,7 +29,7 @@
 		{
 			"weight": 16,
 			"stack": {
-				"item": "minecraft:iron_sword",
+				"id": "minecraft:iron_sword",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ { lvl:4, id:\"minecraft:sharpness\" } , { lvl:1, id:\"minecraft:unbreaking\" } ]}"
 			}
@@ -36,7 +37,7 @@
 		{
 			"weight": 48,
 			"stack": {
-				"item": "minecraft:iron_axe",
+				"id": "minecraft:iron_axe",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ { lvl:4, id:\"minecraft:sharpness\" } , { lvl:1, id:\"minecraft:unbreaking\" } , {lvl:2, id:\"minecraft:bane_of_arthropods\" } ]}"
 			}
@@ -44,7 +45,7 @@
 		{
 			"weight": 48,
 			"stack": {
-				"item": "minecraft:golden_axe",
+				"id": "minecraft:golden_axe",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:2, id:\"minecraft:sharpness\"} , {lvl:1, id:\"minecraft:unbreaking\" } , {lvl:3, id:\"minecraft:bane_of_arthropods\" } ]}"
 			}
@@ -54,7 +55,7 @@
 		{
 			"weight": 1,
 			"stack": {
-				"item": "minecraft:shield",
+				"id": "minecraft:shield",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:3, id:\"minecraft:unbreaking\"} , {lvl:1, id:\"minecraft:mending\"} ]}"
 			}
@@ -62,7 +63,7 @@
 		{
 			"weight": 3,
 			"stack": {
-				"item": "minecraft:shield",
+				"id": "minecraft:shield",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:1, id:\"minecraft:unbreaking\"} , {lvl:1, id:\"minecraft:mending\"} ]}"
 			}
@@ -70,7 +71,7 @@
 		{
 			"weight": 5,
 			"stack": {
-				"item": "minecraft:shield",
+				"id": "minecraft:shield",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:1, id:\"minecraft:mending\"} ]}"
 			}
@@ -78,7 +79,7 @@
 		{
 			"weight": 15,
 			"stack": {
-				"item": "minecraft:shield"
+				"id": "minecraft:shield"
 			}
 		}
 	],
@@ -86,7 +87,7 @@
 		{
 			"weight": 1,
 			"stack": {
-				"item": "minecraft:diamond_helmet",
+				"id": "minecraft:diamond_helmet",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:3, id:\"minecraft:thorns\"} , {lvl:2, id:\"minecraft:unbreaking\"} , {lvl:4, id:\"minecraft:projectile_protection\"} ]}"
 			}
@@ -94,7 +95,7 @@
 		{
 			"weight": 10,
 			"stack": {
-				"item": "minecraft:iron_helmet",
+				"id": "minecraft:iron_helmet",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:1, id:\"minecraft:thorns\"} , {lvl:1, id:\"minecraft:unbreaking\"} , {lvl:2, id:\"minecraft:protection\"} ]}"
 			}
@@ -102,7 +103,7 @@
 		{
 			"weight": 34,
 			"stack": {
-				"item": "minecraft:chainmail_helmet",
+				"id": "minecraft:chainmail_helmet",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:1, id:\"minecraft:unbreaking\"} , {lvl:2, id:\"minecraft:protection\"} ]}"
 			}
@@ -112,7 +113,7 @@
 		{
 			"weight": 1,
 			"stack": {
-				"item": "minecraft:diamond_chestplate",
+				"id": "minecraft:diamond_chestplate",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:2, id:\"minecraft:unbreaking\"} , {lvl:5, id:\"minecraft:protection\"} , {lvl:1, id:\"minecraft:binding_curse\"} ]}"
 			}
@@ -120,7 +121,7 @@
 		{
 			"weight": 10,
 			"stack": {
-				"item": "minecraft:iron_chestplate",
+				"id": "minecraft:iron_chestplate",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:2, id:\"minecraft:unbreaking\"} , {lvl:2, id:\"minecraft:fire_protection\"} ]}"
 			}
@@ -128,7 +129,7 @@
 		{
 			"weight": 34,
 			"stack": {
-				"item": "minecraft:chainmail_chestplate",
+				"id": "minecraft:chainmail_chestplate",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:1, id:\"minecraft:unbreaking\"} , {lvl:2, id:\"minecraft:protection\"} ]}"
 			}
@@ -138,7 +139,7 @@
 		{
 			"weight": 1,
 			"stack": {
-				"item": "minecraft:diamond_leggings",
+				"id": "minecraft:diamond_leggings",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:1, id:\"minecraft:binding_curse\"} , {lvl:2, id:\"minecraft:swift_sneak\"} ]}"
 			}
@@ -146,7 +147,7 @@
 		{
 			"weight": 1,
 			"stack": {
-				"item": "minecraft:iron_leggings",
+				"id": "minecraft:iron_leggings",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[ {lvl:1, id:\"minecraft:unbreaking\"} , {lvl:1, id:\"minecraft:swift_sneak\"} ]}"
 			}
@@ -154,7 +155,7 @@
 		{
 			"weight": 3,
 			"stack": {
-				"item": "minecraft:iron_leggings",
+				"id": "minecraft:iron_leggings",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[{lvl:1, id:\"minecraft:unbreaking\"} , {lvl:1, id:\"minecraft:mending\"}]}"
 			}
@@ -162,19 +163,19 @@
 		{
 			"weight": 10,
 			"stack": {
-				"item": "minecraft:diamond_leggings"
+				"id": "minecraft:diamond_leggings"
 			}
 		},
 		{
 			"weight": 10,
 			"stack": {
-				"item": "minecraft:iron_leggings"
+				"id": "minecraft:iron_leggings"
 			}
 		},
 		{
 			"weight": 30,
 			"stack": {
-				"item": "minecraft:chainmail_leggings"
+				"id": "minecraft:chainmail_leggings"
 			}
 		}
 	],
@@ -182,7 +183,7 @@
 		{
 			"weight": 1,
 			"stack": {
-				"item": "minecraft:diamond_boots",
+				"id": "minecraft:diamond_boots",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[{lvl:3, id:\"minecraft:unbreaking\"},{lvl:1, id:\"minecraft:mending\"},{lvl:4, id:\"minecraft:feather_falling\"},{lvl:1, id:\"minecraft:binding_curse\"}]}"
 			}
@@ -190,7 +191,7 @@
 		{
 			"weight": 3,
 			"stack": {
-				"item": "minecraft:diamond_boots",
+				"id": "minecraft:diamond_boots",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[{lvl:3, id:\"minecraft:unbreaking\"},{lvl:1, id:\"minecraft:mending\"},{lvl:2, id:\"minecraft:feather_falling\"}]}"
 			}
@@ -198,7 +199,7 @@
 		{
 			"weight": 6,
 			"stack": {
-				"item": "minecraft:diamond_boots",
+				"id": "minecraft:diamond_boots",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[{lvl:1, id:\"minecraft:unbreaking\"},{lvl:1, id:\"minecraft:mending\"},{lvl:1, id:\"minecraft:feather_falling\"}]}"
 			}
@@ -206,7 +207,7 @@
 		{
 			"weight": 10,
 			"stack": {
-				"item": "minecraft:diamond_boots",
+				"id": "minecraft:diamond_boots",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[{lvl:1, id:\"minecraft:unbreaking\"},{lvl:1, id:\"minecraft:mending\"}]}"
 			}
@@ -214,7 +215,7 @@
 		{
 			"weight": 11,
 			"stack": {
-				"item": "minecraft:diamond_boots",
+				"id": "minecraft:diamond_boots",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[{lvl:1, id:\"minecraft:mending\"}]}"
 			}
@@ -222,7 +223,7 @@
 		{
 			"weight": 14,
 			"stack": {
-				"item": "minecraft:iron_boots",
+				"id": "minecraft:iron_boots",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[{lvl:2, id:\"minecraft:unbreaking\"},{lvl:1, id:\"minecraft:feather_falling\"}]}"
 			}
@@ -230,7 +231,7 @@
 		{
 			"weight": 18,
 			"stack": {
-				"item": "minecraft:iron_boots",
+				"id": "minecraft:iron_boots",
 				"count": 1,
 				"nbt": "{Damage:0, Enchantments:[{lvl:2, id:\"minecraft:unbreaking\"}]}"
 			}
@@ -238,19 +239,19 @@
 		{
 			"weight": 20,
 			"stack": {
-				"item": "minecraft:diamond_boots"
+				"id": "minecraft:diamond_boots"
 			}
 		},
 		{
 			"weight": 22,
 			"stack": {
-				"item": "minecraft:iron_boots"
+				"id": "minecraft:iron_boots"
 			}
 		},
 		{
 			"weight": 34,
 			"stack": {
-				"item": "minecraft:chainmail_boots"
+				"id": "minecraft:chainmail_boots"
 			}
 		}
 	],
