@@ -1,0 +1,19 @@
+{
+  "modids": [
+    "livingthings"
+  ],
+  "biomes": [
+    "mdcdi1315_md:md_treeland_caves"
+  ],
+  "spawners": {
+    "category": "ambient",
+    "entities": [
+      {
+        "entity_id": "livingthings:owl",
+        "weight": 10,
+        "min_count": 1,
+        "max_count": 2
+      }
+    ]
+  }
+}

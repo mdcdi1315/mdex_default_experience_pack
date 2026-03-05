@@ -1,0 +1,25 @@
+{
+  "modids": [
+    "livingthings"
+  ],
+  "biomes": [
+    "mdcdi1315_md:md_lush_caves"
+  ],
+  "spawners": {
+    "category": "ambient",
+    "entities": [
+      {
+        "entity_id": "livingthings:crab",
+        "weight": 10,
+        "min_count": 1,
+        "max_count": 2
+      },
+      {
+        "entity_id": "livingthings:snail",
+        "weight": 10,
+        "min_count": 1,
+        "max_count": 3
+      }
+    ]
+  }
+}

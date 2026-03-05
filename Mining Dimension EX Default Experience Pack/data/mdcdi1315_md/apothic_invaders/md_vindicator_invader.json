@@ -60,7 +60,8 @@
           "operation": "add_value",
           "value": {
             "min": 40,
-            "max": 120
+            "max": 120,
+            "step": 2
           }
         },
         {
@@ -108,7 +109,8 @@
           "operation": "add_value",
           "value": {
             "min": 62,
-            "max": 242
+            "max": 242,
+            "step": 4
           }
         },
         {

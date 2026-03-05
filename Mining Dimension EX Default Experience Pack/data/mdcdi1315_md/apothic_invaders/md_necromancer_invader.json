@@ -61,7 +61,8 @@
           "operation": "add_value",
           "value": {
             "min": 20,
-            "max": 40
+            "max": 40,
+            "step": 1
           }
         },
         {
@@ -129,7 +130,8 @@
           "operation": "add_value",
           "value": {
             "min": 40,
-            "max": 70
+            "max": 70,
+            "step": 2
           }
         },
         {
@@ -197,7 +199,8 @@
           "operation": "add_value",
           "value": {
             "min": 80,
-            "max": 110
+            "max": 110,
+            "step": 1
           }
         },
         {
@@ -265,7 +268,8 @@
           "operation": "add_value",
           "value": {
             "min": 120,
-            "max": 150
+            "max": 200,
+            "step": 5
           }
         },
         {
@@ -293,24 +297,24 @@
           "attribute": "irons_spellbooks:spell_power",
           "operation": "add_multiplied_base",
           "value": {
-            "min": 0.6,
-            "max": 0.11
+            "min": 0.11,
+            "max": 0.6
           }
         },
         {
           "attribute": "irons_spellbooks:spell_resist",
           "operation": "add_multiplied_base",
           "value": {
-            "min": 0.4,
-            "max": 0.11
+            "min": 0.11,
+            "max": 0.4
           }
         },
         {
           "attribute": "irons_spellbooks:summon_damage",
           "operation": "add_multiplied_base",
           "value": {
-            "min": 0.6,
-            "max": 0.11
+            "min": 0.11,
+            "max": 0.6
           }
         }
       ]
